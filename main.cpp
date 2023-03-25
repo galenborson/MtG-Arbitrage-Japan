@@ -25,7 +25,7 @@ static size_t my_write(void* buffer, size_t size, size_t nmemb, void* param)
 std::string convertUTF8ToANSI(std::filesystem::path inputfile, std::string outputfile) {
     // Open the input file in binary mode
     std::string filestring = inputfile.string();
-    std::cout << "Converting " << filestring << " from UTF-8 to ANSI...\n";
+    // std::cout << "Converting " << filestring << " from UTF-8 to ANSI...\n";
     std::ifstream input(filestring, std::ios::binary);
 
     // Read the entire content of the input file into a string object
@@ -96,8 +96,6 @@ void extractMarketPrices(std::string code, std::string name) {
     std::ofstream pricesOutput;
     std::string data;
 
-    std::cout << "Converting html file for " << code << "... ";
-
     // Extracts the price information line
     pricesInput.open("files/market_prices_html/" + code + ".html");
     int lineCount = 0;
@@ -163,9 +161,6 @@ void assignCodesToStores() {
                 fullRecords.addCodesByStore(2, set.getSetCode(), match[1]);
             }
         }
-    }
-    for (Store& x : fullRecords.getAllStores()) {
-        std::cout << x.getStoreName() << " has " << x.getURLTags().size() << " sets.\n";
     }
     std::cout << "\n";
 }
@@ -445,7 +440,6 @@ void compileHareruya(std::filesystem::path filedir, float conversion) {
             }
             else {
                 nameEN = translateJPNameToEN(match1[3], setcode);
-                // std::cout << setcode << "; " << match1[3] << " has the modifiers \"" << match1[2] << "\"\n";
                 if (setcode == "BRR" && (match1[2] == "■旧枠■" || match1[2] == "【Foil】■旧枠■")) {
                 }
                 else if (setcode == "DMU" && std::string(match1[2]).substr(0,match1[2].length()-3) == "【テクスチャー・Foil】") {
@@ -558,14 +552,12 @@ void downloadStoreLinks(Store& store) {
                 std::string urlbase = store.getURLConstructor();
                 urlbase = std::regex_replace(urlbase, urltag, tagstring);
                 std::string urlpages = std::regex_replace(urlbase, pagenum, std::to_string(currentpage));
-                std::cout << urlpages << "\n";
                 std::string tagstringdownloadable = regex_replace(tagstring, std::regex("\/"), "_");
                 std::string storename = store.getStoreName();
                 std::string outputhtml = "files/stores_html/" + storename + "/" + currentset + " " + tagstringdownloadable + " - " + std::to_string(currentpage) + ".html";
                 // If the file doesn't already exist or has been modified within the past 24 hours, (re)download it
                 std::filesystem::path mypath = outputhtml;
                 std::filesystem::path existingCSV = "files/stores_databases/" + storename + "/" + currentset + " " + tagstringdownloadable + " - " + std::to_string(currentpage) + ".csv";
-                std::cout << "Existing path should look like: " << existingCSV.string() << "\n";
                 std::string csvnameorigin = mypath.filename().string();
                 std::filesystem::file_time_type filetime;
                 try {
@@ -575,16 +567,16 @@ void downloadStoreLinks(Store& store) {
                     std::time_t nowt = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
                     float difference = difftime(nowt, fileEpoch);
                     if (difference / 86400 >= 5) {
-                        std::cout << "File last updated " << difference / 86400 << " days ago. Updating now...\n";
+                        std::cout << "File " << existingCSV << " last updated " << difference / 86400 << " days ago. Updating now...\n";
                         curlDownload(urlpages, outputhtml);
                         extractAndCompile(outputhtml, csvnameorigin, storename, currentset);
                     }
                     else {
-                        std::cout << "File last updated " << difference / 86400 << " days ago. Will not update.\n";
+                        std::cout << "File " << existingCSV << " last updated " << difference / 86400 << " days ago. Will not update.\n";
                     }
                 }
                 catch (const std::filesystem::filesystem_error& e) {
-                    std::cout << "File not found. Downloading now...\n";
+                    std::cout << "File " << existingCSV << " not found. Downloading now...\n";
                     curlDownload(urlpages, outputhtml);
                     extractAndCompile(outputhtml, csvnameorigin, storename, currentset);
                     std::filesystem::remove(outputhtml);
@@ -600,7 +592,6 @@ void fetchStorePrices(Store& store) {
     std::filesystem::path inputdir = "files/stores_html/" + storename;
     // For each file in a particularly directory, extract just the price information and delete the rest.
     for (const auto& entry : std::filesystem::directory_iterator(inputdir)) {
-        // std::cout << "Cleaning up " << entry.path() << "\n";
         if (storename == "Aki Aki") {
             extractAkiAki(entry);
         }
@@ -636,7 +627,6 @@ void generateFinalOutput() {
     std::ifstream market_prices;
     time_t now = time(0);
     std::string dt = ctime(&now);
-    std::cout << dt << "\n";
     std::string outputString = "files/output/output.csv";
     std::filesystem::remove(outputString);
     std::ofstream masterOutput(outputString, std::ios_base::app);
@@ -757,7 +747,7 @@ int main() {
         fullRecords.addSet(code, name, csvfile, allCodes);
         std::cout << "Done\n";
     }
-    std::cout << std::endl;
+    std::cout << "\n";
     fileOfSets.close();
 
     assignCodesToStores();
