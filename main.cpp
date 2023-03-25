@@ -215,7 +215,7 @@ void downloadStoreLinks(Store& store) {
                         /*
                         std::ofstream outputwrite(outputfile, std::ios_base::app);
                         std::filesystem::directory_entry outputdir(outputfile);
-                        if (storename == "Aki Aki") {
+                        if (storename == "Aki Aki") {545646486548
                             extractAkiAki(outputdir);
                         }
                         */
