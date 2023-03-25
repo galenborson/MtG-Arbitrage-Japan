@@ -1,0 +1,457 @@
+001	オーラ術師	Auramancer
+002	金切るときの声	Battle Screech
+003	前線の僧侶	Cleric of the Forward Order
+004	集い	Congregate
+005	聖餐式	Divine Sacrament
+006	悟りの教示者	Enlightened Tutor
+007	栄光	Glory
+008	グリフィンの導き	Griffin Guide
+009	アイケイシアの投槍兵	Icatian Javelineers
+010	間に合わせの鎧	Improvised Armor
+011	キイェルドーのガーゴイル	Kjeldoran Gargoyle
+012	隊長補佐カーター	Lieutenant Kirtar
+013	黎明をもたらす者ライラ	Lyra Dawnbringer
+014	メサの女魔術師	Mesa Enchantress
+015	一瞬の瞬き	Momentary Blink
+016	秘教の盲信者	Mystic Zealot
+017	遊牧の民のおとり	Nomad Decoy
+018	オアリムのいかづち	Orim's Thunder
+019	平和な心	Pacifism
+020	幻影の群れ	Phantom Flock
+021	レイディアントの審判	Radiant's Judgment
+022	治療	Remedy
+023	新たな信仰	Renewed Faith
+024	サバンナ・ライオン	Savannah Lions
+025	セラの天使	Serra Angel
+026	セラのアバター	Serra Avatar
+027	セヴィンの再利用	Sevinne's Reclamation
+028	幽体オオヤマネコ	Spectral Lynx
+029	魂の絆	Spirit Link
+030	太陽の外套留め	Sun Clasp
+031	剣を鍬に	Swords to Plowshares
+032	忍耐の試練	Test of Endurance
+033	用心深い歩哨	Vigilant Sentry
+034	万物の声	Voice of All
+035	白たてがみのライオン	Whitemane Lion
+036	風生まれの詩神	Windborn Muse
+037	神の怒り	Wrath of God
+038	アクアミーバ	Aquamoeba
+039	全能なる者アルカニス	Arcanis the Omnipotent
+040	運命をかたどるエイヴン	Aven Fateshaper
+041	エイヴンの魚捕り	Aven Fisher
+042	堂々巡り	Circular Logic
+043	フェアリーの大群	Cloud of Faeries
+044	押収	Confiscate
+045	対抗呪文	Counterspell
+046	綿密な分析	Deep Analysis
+047	深海の生息者	Denizen of the Deep
+048	嘘か真か	Fact or Fiction
+049	水門	Floodgate
+050	意志の力	Force of Will
+051	大あわての捜索	Frantic Search
+052	きらめく翼の発動者	Glintwing Invoker
+053	錬金術の研究	Hermetic Study
+054	満潮	High Tide
+055	カブトガニ	Horseshoe Crab
+056	衝動	Impulse
+057	重い拳	Leaden Fists
+058	大クラゲ	Man-o'-War
+059	神秘的負荷	Mystic Remora
+060	神秘の教示者	Mystical Tutor
+061	強迫的な捜索	Obsessive Search
+062	対立	Opposition
+063	羊術	Ovinize
+064	羊術師	Ovinomancer
+065	流浪のドレイク	Peregrine Drake
+066	断絶	Snap
+067	天才のひらめき	Stroke of Genius
+068	泥棒カササギ	Thieving Magpie
+069	時間の伸長	Time Stretch
+070	転換	Turnabout
+071	最高工匠卿、ウルザ	Urza, Lord High Artificer
+072	仮装の大海蛇	Veiled Serpent
+073	難問のスフィンクス	Vexing Sphinx
+074	寄生牙のドレイク	Wormfang Drake
+075	ボディ・スナッチャー	Body Snatcher
+076	大笑いの悪鬼	Cackling Fiend
+077	狂気を操る者チェイナー	Chainer, Dementia Master
+078	チェイナーの布告	Chainer's Edict
+079	闇の萎縮	Dark Withering
+080	戦慄の復活	Dread Return
+081	強迫	Duress
+082	納墓	Entomb
+083	オームズ＝バイ＝ゴアの邪眼	Evil Eye of Orms-by-Gore
+084	顔なしの解体者	Faceless Butcher
+085	ただれたゴブリン	Festering Goblin
+086	肉裂き怪物	Flesh Reaver
+087	ゴブリンの裏切り者	Goblin Turncoat
+088	彼方からの雄叫び	Howl from Beyond
+089	透け羽の霊命	Hyalopterous Lemure
+090	滑る胆液	Ichor Slick
+091	精神を刻むもの	Mindslicer
+092	ナントゥーコの影	Nantuko Shade
+093	ネクロサヴァント	Necrosavant
+094	夜景学院の使い魔	Nightscape Familiar
+095	無慈悲	No Mercy
+096	定員過剰の墓地	Oversold Cemetery
+097	ファイレクシアの堕落者	Phyrexian Debaser
+098	ファイレクシアの食屍鬼	Phyrexian Ghoul
+099	ファイレクシアの憤怒鬼	Phyrexian Rager
+100	ファイレクシアの盾持ち	Phyrexian Scuta
+101	凄腕の暗殺者	Royal Assassin
+102	通りの悪霊	Street Wraith
+103	恐怖	Terror
+104	よじれた実験	Twisted Experiment
+105	アンデッドの剣闘士	Undead Gladiator
+106	アーボーグの吸魂魔道士	Urborg Syphon-Mage
+107	立ち上がるアーボーグ	Urborg Uprising
+108	吸血の教示者	Vampiric Tutor
+109	卑劣なアヌーリッド	Wretched Anurid
+110	スランの医師、ヨーグモス	Yawgmoth, Thran Physician
+111	ゾンビの横行	Zombie Infestation
+112	アヴァラックス	Avarax
+113	稲妻の連鎖	Chain Lightning
+114	石炭焚き	Coal Stoker
+115	死人カタパルト	Deadapult
+116	チビ・ドラゴン	Dragon Whelp
+117	くすぶり獣	Ember Beast
+118	巣穴からの総出	Empty the Warrens
+119	火炎破	Fireblast
+120	火炎舌のカヴー	Flametongue Kavu
+121	ギャンブル	Gamble
+122	宝石の手の焼却者	Gempalm Incinerator
+123	ゴブリンの女看守	Goblin Matron
+124	ゴブリンの衛生兵	Goblin Medics
+125	ぶどう弾	Grapeshot
+126	渋面の溶岩使い	Grim Lavamancer
+127	最後のチャンス	Last Chance
+128	電光石火	Lightning Reflexes
+129	稲妻の裂け目	Lightning Rift
+130	鎚鉾尾のヒストロドン	Macetail Hystrodon
+131	モグの戦争司令官	Mogg War Marshal
+132	圧服	Overmaster
+133	パシャリク・モンス	Pashalik Mons
+134	尾根の頂の猛禽	Ridgetop Raptor
+135	シヴ山のドラゴン	Shivan Dragon
+136	包囲攻撃の司令官	Siege-Gang Commander
+137	スカークの探鉱者	Skirk Prospector
+138	めった切り	Slice and Dice
+139	騙し討ち	Sneak Attack
+140	陽光の突風	Solar Blast
+141	火花のしぶき	Spark Spray
+142	嵐の精体	Storm Entity
+143	地底の斥候	Subterranean Scout
+144	硫黄の渦	Sulfuric Vortex
+145	スークアタの槍騎兵	Suq'Ata Lancer
+146	死せざる怒り	Undying Rage
+147	炎の番人、ヴァルダーク	Valduk, Keeper of the Flame
+148	世界喰らいのドラゴン	Worldgorger Dragon
+149	アルボリア	Arboria
+150	戦場のたかり屋	Battlefield Scrounger
+151	極楽鳥	Birds of Paradise
+152	破断	Break Asunder
+153	獣群の呼び声	Call of the Herd
+154	輪作	Crop Rotation
+155	デッドウッドのツリーフォーク	Deadwood Treefolk
+156	エルフの逸脱者	Elvish Aberration
+157	エルフの指導霊	Elvish Spirit Guide
+158	エメラルドの魔除け	Emerald Charm
+159	踏査	Exploration
+160	ファーディヤーの予見者	Fa'adiyah Seer
+161	忘れられた古霊	Forgotten Ancient
+162	猟場番	Gamekeeper
+163	大蜘蛛	Giant Spider
+164	激励の加護	Invigorating Boon
+165	ムウォンヴーリーの世捨て人、ジョルレイル	Jolrael, Mwonvuli Recluse
+166	クローサの拳カマール	Kamahl, Fist of Krosa
+167	カヴーの上等王	Kavu Primarch
+168	クローサの修復者	Krosan Restorer
+169	小休止	Lull
+170	自然の知識	Nature's Lore
+171	木の実拾い	Nut Collector
+172	暗影のボブキャット	Penumbra Bobcat
+173	原初の支援	Primal Boost
+174	砂嵐	Sandstorm
+175	菌獣の共生	Saproling Symbiosis
+176	シートンの願望	Seton's Desire
+177	リスの巣	Squirrel Nest
+178	岩石樹の発動者	Stonewood Invoker
+179	森の知恵	Sylvan Library
+180	共生する獣	Symbiotic Beast
+181	土を食うもの	Terravore
+182	熊人間	Werebear
+183	野生の犬	Wild Dogs
+184	繁茂	Wild Growth
+185	俗世の教示者	Worldly Tutor
+186	吸収	Absorb
+187	アルカデス・サボス	Arcades Sabboth
+188	大量破壊	Decimate
+189	ドラルヌの十字軍	Dralnu's Crusade
+190	ジェラードの評決	Gerrard's Verdict
+191	狩猟場	Hunting Grounds
+192	秘教の処罰者	Mystic Enforcer
+193	幻影のニショーバ	Phantom Nishoba
+194	火葬のゾンビ	Pyre Zombie
+195	水銀の短剣	Quicksilver Dagger
+196	ケルドの後継者、ラーダ	Radha, Heir to Keld
+197	はね返り	Recoil
+198	煽動するものリース	Rith, the Awakener
+199	鋸歯のアビ	Sawtooth Loon
+200	沼地の王ソルカナー	Sol'kanar the Swamp King
+201	脊髄支配	Spinal Embrace
+202	魂売り	Spiritmonger
+203	水底のドルイド、タトヨヴァ	Tatyova, Benthic Druid
+204	艦の整備士、ティアナ	Tiana, Ship's Caretaker
+205	ジラ・エリアン	Xira Arien
+206	結界師ズアー	Zur the Enchanter
+207	抵抗+救難	Stand // Deliver
+208	悪意+敵意	Spite // Malice
+209	苦痛+受難	Pain // Suffering
+210	暴行+殴打	Assault // Battery
+211	増進+衰退	Wax // Wane
+212	秩序+混沌	Order // Chaos
+213	空想+現実	Illusion // Reality
+214	夜+昼	Night // Day
+215	火+氷	Fire // Ice
+216	生+死	Life // Death
+217	狭い空間	Crawlspace
+218	謎めいた門	Cryptic Gateway
+219	減衰球	Damping Sphere
+220	十二足獣	Dodecapod
+221	ドラゴンの血	Dragon Blood
+222	ドラゴン・エンジン	Dragon Engine
+223	魔力の篭手	Gauntlet of Power
+224	覚醒の兜	Helm of Awakening
+225	氷の干渉器	Icy Manipulator
+226	ジェイラム秘本	Jalum Tome
+227	道化の帽子	Jester's Cap
+228	巨大戦車	Juggernaut
+229	レガシーの兵器	Legacy Weapon
+230	水蓮の花	Lotus Blossom
+231	ミリキン人形	Millikin
+232	精神石	Mind Stone
+233	羽ばたき飛行機械	Ornithopter
+234	スランのゴーレム	Thran Golem
+235	トーモッドの墓所	Tormod's Crypt
+236	トリスケリオン	Triskelion
+237	生命維持コード	Umbilicus
+238	ウルザの青写真	Urza's Blueprints
+239	ウルザの保育器	Urza's Incubator
+240	ガラクタの壁	Wall of Junk
+241	断崖の避難所	Clifftop Retreat
+242	クローシスの地下墓地	Crosis's Catacombs
+243	デアリガズのカルデラ	Darigaaz's Caldera
+244	暗黒の深部	Dark Depths
+245	漂う牧草地	Drifting Meadow
+246	ドロマーの洞窟	Dromar's Cavern
+247	宝石鉱山	Gemstone Mine
+248	内陸の湾港	Hinterland Harbor
+249	孤立した礼拝堂	Isolated Chapel
+250	イス卿の迷路	Maze of Ith
+251	ミシュラの工廠	Mishra's Factory
+252	ナントゥーコの僧院	Nantuko Monastery
+253	汚染されたぬかるみ	Polluted Mire
+254	離れ島	Remote Isle
+255	リースの木立ち	Rith's Grove
+256	滑りやすいカルスト	Slippery Karst
+257	薄煙の火口	Smoldering Crater
+258	硫黄の滝	Sulfur Falls
+259	堆石堤	Terminal Moraine
+260	トリーヴァの廃墟	Treva's Ruins
+261	森林の墓地	Woodland Cemetery
+262		Divine Sacrament (Retro Frame)
+263		Enlightened Tutor (Retro Frame)
+264		Glory (Retro Frame)
+265		Lieutenant Kirtar (Retro Frame)
+266		Lyra Dawnbringer (Retro Frame)
+267		Mesa Enchantress (Retro Frame)
+268		Momentary Blink (Retro Frame)
+269		Renewed Faith (Retro Frame)
+270		Savannah Lions (Retro Frame)
+271		Serra Angel (Retro Frame)
+272		Serra Avatar (Retro Frame)
+273		Sevinne's Reclamation (Retro Frame)
+274		Spirit Link (Retro Frame)
+275		Swords to Plowshares (Retro Frame)
+276		Test of Endurance (Retro Frame)
+277		Whitemane Lion (Retro Frame)
+278		Windborn Muse (Retro Frame)
+279		Wrath of God (Retro Frame)
+280		Arcanis the Omnipotent (Retro Frame)
+281		Counterspell (Retro Frame)
+282		Denizen of the Deep (Retro Frame)
+283		Fact or Fiction (Retro Frame)
+284		Force of Will (Retro Frame)
+285		Frantic Search (Retro Frame)
+286		High Tide (Retro Frame)
+287		Impulse (Retro Frame)
+288		Mystic Remora (Retro Frame)
+289		Mystical Tutor (Retro Frame)
+290		Opposition (Retro Frame)
+291		Ovinize (Retro Frame)
+292		Peregrine Drake (Retro Frame)
+293		Stroke of Genius (Retro Frame)
+294		Time Stretch (Retro Frame)
+295		Turnabout (Retro Frame)
+296		Urza, Lord High Artificer (Retro Frame)
+297		Vexing Sphinx (Retro Frame)
+298		Body Snatcher (Retro Frame)
+299		Chainer, Dementia Master (Retro Frame)
+300		Chainer's Edict (Retro Frame)
+301		Dark Withering (Retro Frame)
+302		Dread Return (Retro Frame)
+303		Duress (Retro Frame)
+304		Entomb (Retro Frame)
+305		Mindslicer (Retro Frame)
+306		Nantuko Shade (Retro Frame)
+307		Necrosavant (Retro Frame)
+308		No Mercy (Retro Frame)
+309		Oversold Cemetery (Retro Frame)
+310		Royal Assassin (Retro Frame)
+311		Street Wraith (Retro Frame)
+312		Terror (Retro Frame)
+313		Undead Gladiator (Retro Frame)
+314		Vampiric Tutor (Retro Frame)
+315		Yawgmoth, Thran Physician (Retro Frame)
+316		Chain Lightning (Retro Frame)
+317		Dragon Whelp (Retro Frame)
+318		Empty the Warrens (Retro Frame)
+319		Fireblast (Retro Frame)
+320		Flametongue Kavu (Retro Frame)
+321		Gamble (Retro Frame)
+322		Gempalm Incinerator (Retro Frame)
+323		Goblin Matron (Retro Frame)
+324		Grim Lavamancer (Retro Frame)
+325		Last Chance (Retro Frame)
+326		Mogg War Marshal (Retro Frame)
+327		Overmaster (Retro Frame)
+328		Pashalik Mons (Retro Frame)
+329		Shivan Dragon (Retro Frame)
+330		Siege-Gang Commander (Retro Frame)
+331		Sneak Attack (Retro Frame)
+332		Sulfuric Vortex (Retro Frame)
+333		Valduk, Keeper of the Flame (Retro Frame)
+334		Worldgorger Dragon (Retro Frame)
+335		Arboria (Retro Frame)
+336		Birds of Paradise (Retro Frame)
+337		Deadwood Treefolk (Retro Frame)
+338		Elvish Spirit Guide (Retro Frame)
+339		Exploration (Retro Frame)
+340		Fa'adiyah Seer (Retro Frame)
+341		Forgotten Ancient (Retro Frame)
+342		Invigorating Boon (Retro Frame)
+343		Jolrael, Mwonvuli Recluse (Retro Frame)
+344		Kamahl, Fist of Krosa (Retro Frame)
+345		Lull (Retro Frame)
+346		Nature's Lore (Retro Frame)
+347		Nut Collector (Retro Frame)
+348		Saproling Symbiosis (Retro Frame)
+349		Squirrel Nest (Retro Frame)
+350		Sylvan Library (Retro Frame)
+351		Wild Dogs (Retro Frame)
+352		Wild Growth (Retro Frame)
+353		Worldly Tutor (Retro Frame)
+354		Absorb (Retro Frame)
+355		Arcades Sabboth (Retro Frame)
+356		Decimate (Retro Frame)
+357		Dralnu's Crusade (Retro Frame)
+358		Gerrard's Verdict (Retro Frame)
+359		Hunting Grounds (Retro Frame)
+360		Mystic Enforcer (Retro Frame)
+361		Phantom Nishoba (Retro Frame)
+362		Pyre Zombie (Retro Frame)
+363		Quicksilver Dagger (Retro Frame)
+364		Radha, Heir to Keld (Retro Frame)
+365		Recoil (Retro Frame)
+366		Rith, the Awakener (Retro Frame)
+367		Sawtooth Loon (Retro Frame)
+368		Sol'kanar the Swamp King (Retro Frame)
+369		Spinal Embrace (Retro Frame)
+370		Spiritmonger (Retro Frame)
+371		Tatyova, Benthic Druid (Retro Frame)
+372		Tiana, Ship's Caretaker (Retro Frame)
+373		Xira Arien (Retro Frame)
+374		Zur the Enchanter (Retro Frame)
+375		Crawlspace (Retro Frame)
+376		Cryptic Gateway (Retro Frame)
+377		Damping Sphere (Retro Frame)
+378		Gauntlet of Power (Retro Frame)
+379		Helm of Awakening (Retro Frame)
+380		Icy Manipulator (Retro Frame)
+381		Jester's Cap (Retro Frame)
+382		Juggernaut (Retro Frame)
+383		Legacy Weapon (Retro Frame)
+384		Lotus Blossom (Retro Frame)
+385		Mind Stone (Retro Frame)
+386		Ornithopter (Retro Frame)
+387		Thran Golem (Retro Frame)
+388		Tormod's Crypt (Retro Frame)
+389		Triskelion (Retro Frame)
+390		Umbilicus (Retro Frame)
+391		Urza's Blueprints (Retro Frame)
+392		Urza's Incubator (Retro Frame)
+393		Clifftop Retreat (Retro Frame)
+394		Dark Depths (Retro Frame)
+395		Gemstone Mine (Retro Frame)
+396		Hinterland Harbor (Retro Frame)
+397		Isolated Chapel (Retro Frame)
+398		Maze of Ith (Retro Frame)
+399		Mishra's Factory (Retro Frame)
+400		Sulfur Falls (Retro Frame)
+401		Woodland Cemetery (Retro Frame)
+402		Plains (402) (Retro Frame)
+403		Plains (403) (Retro Frame)
+404		Island (404) (Retro Frame)
+405		Island (405) (Retro Frame)
+406		Swamp (406) (Retro Frame)
+407		Swamp (407) (Retro Frame)
+408		Mountain (408) (Retro Frame)
+409		Mountain (409) (Retro Frame)
+410		Forest (410) (Retro Frame)
+411		Forest (411) (Retro Frame)
+412		Enlightened Tutor (Borderless)
+413		Lyra Dawnbringer (Borderless)
+414		Test of Endurance (Borderless)
+415		Windborn Muse (Borderless)
+416		Wrath of God (Borderless)
+417		Denizen of the Deep (Borderless)
+418		Force of Will (Borderless)
+419		High Tide (Borderless)
+420		Mystic Remora (Borderless)
+421		Mystical Tutor (Borderless)
+422		Time Stretch (Borderless)
+423		Urza, Lord High Artificer (Borderless)
+424		Chainer, Dementia Master (Borderless)
+425		Chainer's Edict (Borderless)
+426		Entomb (Borderless)
+427		No Mercy (Borderless)
+428		Oversold Cemetery (Borderless)
+429		Street Wraith (Borderless)
+430		Vampiric Tutor (Borderless)
+431		Yawgmoth, Thran Physician (Borderless)
+432		Flametongue Kavu (Borderless)
+433		Gamble (Borderless)
+434		Grim Lavamancer (Borderless)
+435		Last Chance (Borderless)
+436		Siege-Gang Commander (Borderless)
+437		Worldgorger Dragon (Borderless)
+438		Arboria (Borderless)
+439		Birds of Paradise (Borderless)
+440		Nut Collector (Borderless)
+441		Sylvan Library (Borderless)
+442		Worldly Tutor (Borderless)
+443		Absorb (Borderless)
+444		Decimate (Borderless)
+445		Hunting Grounds (Borderless)
+446		Radha, Heir to Keld (Borderless)
+447		Gauntlet of Power (Borderless)
+448		Helm of Awakening (Borderless)
+449		Jester's Cap (Borderless)
+450		Legacy Weapon (Borderless)
+451		Lotus Blossom (Borderless)
+452		Triskelion (Borderless)
+453		Urza's Incubator (Borderless)
+454		Dark Depths (Borderless)
+455		Gemstone Mine (Borderless)
+456		Maze of Ith (Borderless)
+457		Counterspell

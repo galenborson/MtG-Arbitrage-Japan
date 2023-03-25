@@ -1,0 +1,479 @@
+001	万難を排して	Against All Odds
+002	別館の歩哨	Annex Sentry
+003	侵略の使徒	Apostle of Invasion
+004	聖堂の導き手	Basilica Shepherd
+005	刃ある大使	Bladed Ambassador
+006	ダニの突撃	Charge of the Mites
+007	完成化の祈り	Compleat Devotion
+008	這い回る合唱者	Crawling Chorus
+009	信念堅い決闘者	Duelist of Deep Faith
+010	機械の母、エリシュ・ノーン	Elesh Norn, Mother of Machines
+011	永遠の放浪者	The Eternal Wanderer
+012	肉剥ぎの猛禽	Flensing Raptor
+013	黄金守護の兜	Goldwarden's Helm
+014	呪い金の浮遊翼	Hexgold Hoverwings
+015	切歯の滑空機	Incisor Glider
+016	教化案内人	Indoctrination Attendant
+017	感染した肉裁ち	Infested Fleshcutter
+018	顎骨の決闘者	Jawbone Duelist
+019	耐え忍ぶカー、ケンバ	Kemba, Kha Enduring
+020	レオニンの光もたらす者	Leonin Lightbringer
+021	大顎の大司法官	Mandible Justiciar
+022	ミラディンのバルディッシュ	Mirran Bardiche
+023	栄光のドミヌス、モンドラク	Mondrak, Glory Dominus
+024	ノーンの水源	Norn's Wellspring
+025	正典の執行者	Orthodoxy Enforcer
+026	骨化	Ossification
+027	ファイレクシアの立証者	Phyrexian Vindicator
+028	次元の撹乱	Planar Disruption
+029	板金鎧の猛攻	Plated Onslaught
+030	磁器の盲信者	Porcelain Zealot
+031	レジスタンス再結成	Resistance Reunited
+032	腱の舞踏者	Sinew Dancer
+033	離反ダニ、スクレルヴ	Skrelv, Defector Mite
+034	スクレルヴの巣	Skrelv's Hive
+035	舞い降りる見張り	Swooping Lookout
+036	久遠への消失	Vanish into Eternity
+037	同化のヴェール	Veil of Assimilation
+038	白の太陽の黄昏	White Sun's Twilight
+039	盲信者の確信	Zealot's Conviction
+040	有貌体の向上	Aspirant's Ascent
+041	大気の外科医	Atmosphere Surgeon
+042	共同魂の刃	Blade of Shared Souls
+043	青の太陽の黄昏	Blue Sun's Twilight
+044	終焉よ来たれ	Bring the Ending
+045	金属のうろつくもの	Chrome Prowler
+046	歪められた好奇心	Distorted Curiosity
+047	浸食するマイコシンス	Encroaching Mycosynth
+048	逃亡した実験体	Escaped Experiment
+049	実験的占い	Experimental Augury
+050	マルカトールの眼	Eye of Malcator
+051	発展の源	Font of Progress
+052	ギタクシア派の解剖学者	Gitaxian Anatomist
+053	ギタクシア派の猛禽	Gitaxian Raptor
+054	ぎらつく予見者	Glistener Seer
+055	胆液の合成者	Ichor Synthesizer
+056	胆液月の篭手	Ichormoon Gauntlet
+057	完成化した精神、ジェイス	Jace, the Perfected Mind
+058	マルカトールの監視者	Malcator's Watcher
+059	脳網の管理者	Meldweb Curator
+060	脳網の徘徊者	Meldweb Strider
+061	気まぐれな呪文踊り	Mercurial Spelldancer
+062	眩惑の妙薬	Mesmerizing Dose
+063	精神接合器	Mindsplice Apparatus
+064	軽微なつまづき	Minor Misstep
+065	ファイレクシア病の前触れ	Prologue to Phyresis
+066	水銀の魚捕り	Quicksilver Fisher
+067	不完全を拒絶せよ	Reject Imperfection
+068	血清の罠	Serum Snare
+069	タミヨウの固定器	Tamiyo's Immobilizer
+070	タミヨウの記録	Tamiyo's Logbook
+071	尋問のドミヌス、テクータル	Tekuthal, Inquiry Dominus
+072	かき鳴らし鳥	Thrummingbird
+073	移植の理論家	Transplant Theorist
+074	底引き漁のドレイク	Trawler Drake
+075	大変成家、アンクタス	Unctus, Grand Metatect
+076	アンクタスの改良者	Unctus's Retrofitter
+077	生体解剖医の見識	Vivisurgeon's Insight
+078	用心深いブリスタゾア	Watchful Blisterzoa
+079	歩行型建造物	Ambulatory Edifice
+080	滅殺の眼差し	Annihilating Glare
+081	苦痛ある選定	Anoint with Affliction
+082	ドロスの魔神	Archfiend of the Dross
+083	多汁質の頭蓋住まい	Bilious Skulldweller
+084	黒の太陽の黄昏	Black Sun's Twilight
+085	腐り腹のネズミ	Blightbelly Rat
+086	骨拾いのスカージ	Bonepicker Skirge
+087	騒がしい這い回り	Chittering Skitterling
+088	残虐の陰皇	Cruel Grimnarch
+089	殺しの百長	Cutthroat Centurion
+090	修羅のドミヌス、ドリヴノッド	Drivnod, Carnage Dominus
+091	胆液まみれ	Drown in Ichor
+092	強迫	Duress
+093	感染肥やし	Feed the Infection
+094	肉なし剣闘士	Fleshless Gladiator
+095	契約の族長、ゲス	Geth, Thane of Contracts
+096	丸呑みの屑鉄罠	Gulping Scraptrap
+097	伝染性尋問	Infectious Inquiry
+098	ネズミの王、カルモニクス	Karumonix, the Rat King
+099	屍気の拝領	Necrogen Communion
+100	屍蚊	Necrosquito
+101	屍賊起こしの聖騎士	Nimraiser Paladin
+102	不死性の提供	Offer Immortality
+103	伝染させる吸血者	Pestilent Syphoner
+104	ファイレクシアの闘技場	Phyrexian Arena
+105	ファイレクシアの抹消者	Phyrexian Obliterator
+106	貪欲な屍巨人	Ravenous Necrotitan
+107	策謀の有貌体	Scheming Aspirant
+108	シェオルドレッドの勅令	Sheoldred's Edict
+109	シェオルドレッドの首狩り	Sheoldred's Headcleaver
+110	有刺巣主	Stinging Hivemaster
+111	証を携える者	Testament Bearer
+112	槽の出現	Vat Emergence
+113	再誕槽	Vat of Rebirth
+114	処刑者の族長、ヴラーン	Vraan, Executioner Thane
+115	裏切りの棘、ヴラスカ	Vraska, Betrayal's Sting
+116	ヴラスカの堕落	Vraska's Fall
+117	ドロスの囁き	Whisper of the Dross
+118	完全なる統一	All Will Be One
+119	潜伏工作員の目覚め	Awaken the Sleeper
+120	アクシオムの彫版師	Axiom Engraver
+121	逆棘の叩拳	Barbed Batterfist
+122	刃継ぎの有貌体	Bladegraft Aspirant
+123	猛火の最高潮	Blazing Crescendo
+124	騒音の悪獣	Cacophony Scamp
+125	気まぐれな厄介者	Capricious Hellraiser
+126	煙突の扇動者	Chimney Rabble
+127	逆巻く貯蔵器	Churning Reservoir
+128	竜翼の滑空者	Dragonwing Glider
+129	溌剌としたヒューズリング	Exuberant Fuseling
+130	鍛冶鎚の百長	Forgehammer Centurion
+131	肉体からの解放	Free from Flesh
+132	焼炉の懲罰者	Furnace Punisher
+133	焼炉の徘徊者	Furnace Strider
+134	上機嫌の解体	Gleeful Demolition
+135	危険な爆風	Hazardous Blast
+136	呪い金の矛槍	Hexgold Halberd
+137	呪い金の斬撃	Hexgold Slash
+138	レジスタンスの火、コス	Koth, Fire of Resistance
+139	カルドーサの哄笑者	Kuldotha Cackler
+140	マグマの疾走者	Magmatic Sprinter
+141	溶鉄の咎め	Molten Rebuke
+142	ナヒリの生け贄	Nahiri's Sacrifice
+143	オキシダの懐刀	Oxidda Finisher
+144	一斉蜂起	Rebel Salvo
+145	赤の太陽の黄昏	Red Sun's Twilight
+146	レジスタンスの空番	Resistance Skywarden
+147	鋸刃の餓鬼	Sawblade Scamp
+148	爆片投げ	Shrapnel Slinger
+149	鉄のゴブリン、スロバッド	Slobad, Iron Goblin
+150	擾乱のドミヌス、ソルフィム	Solphim, Mayhem Dominus
+151	胸躍る可能性	Thrill of Possibility
+152	ウラブラスクの選定師	Urabrask's Anointer
+153	ウラブラスクの溶鉱炉	Urabrask's Forge
+154	執念深い炎焚き	Vindictive Flamestoker
+155	電位の負荷	Volt Charge
+156	ヴァルショクの割り斧	Vulshok Splitter
+157	適応体の胞子歌い	Adaptive Sporesinger
+158	硬化した屑鉄喰らい	Armored Scrapgorger
+159	ふくれた汚染者	Bloated Contaminator
+160	枝枯らしの忍び寄り	Branchblight Stalker
+161	腐れ花	Cankerbloom
+162	人喰い梢	Carnivorous Canopy
+163	世界の導管	Conduit of Worlds
+164	伝染病のヴォラック	Contagious Vorrac
+165	銅の足長虫	Copper Longlegs
+166	進化したスパイノダーム	Evolved Spinoderm
+167	進化する適応体	Evolving Adaptive
+168	球層の拡大	Expand the Sphere
+169	緑の太陽の黄昏	Green Sun's Twilight
+170	胆液吐きのバジリスク	Ichorspit Basilisk
+171	胎嚢	Incubation Sac
+172	伝染する一噛み	Infectious Bite
+173	格子刃のカマキリ	Lattice-Blade Mantis
+174	迷宮の外套	Maze's Mantle
+175	向上した精霊信者、ニッサ	Nissa, Ascended Animist
+176	有毒の突撃	Noxious Assault
+177	油喰らいのトロール	Oil-Gorger Troll
+178	捕食の聖騎士	Paladin of Predation
+179	疫病の看護者	Plague Nurse
+180	捕食の世話役	Predation Steward
+181	錆蔦の培養者	Rustvine Cultivator
+182	無情な捕食	Ruthless Predation
+183	空鎌の飲み込むもの	Skyscythe Engulfer
+184	シルヴォクの戦座	Sylvok Battle-Chair
+185	渇き根	Thirsting Roots
+186	沈黙を破る者、スラーン	Thrun, Breaker of Silence
+187	剛力化	Titanic Growth
+188	非道なティラナックス	Tyrranax Atrocity
+189	ティラナックス・レックス	Tyrranax Rex
+190	タイヴァーの抵抗	Tyvar's Stand
+191	不自然な修復	Unnatural Restoration
+192	敬慕される腐敗僧	Venerated Rotpriest
+193	猛毒の非道者	Venomous Brutalizer
+194	病毒の繁殖	Viral Spawning
+195	飢餓のドミヌス、ゾパンドレル	Zopandrel, Hunger Dominus
+196	偉大なる統一者、アトラクサ	Atraxa, Grand Unifier
+197	刃砦の戦鞭	Bladehold War-Whip
+198	頭足類の歩哨	Cephalopod Sentry
+199	炭鍛冶	Charforger
+200	燃えがら斬りの荒廃者	Cinderslash Ravager
+201	球層の追跡者、エズーリ	Ezuri, Stalker of Spheres
+202	グリッサ・サンスレイヤー	Glissa Sunslayer
+203	最初の黄金守護、ジョー・カディーン	Jor Kadeen, First Goldwarden
+204	踊る影、魁渡	Kaito, Dancing Shadow
+205	無形の処刑者、ケイヤ	Kaya, Intangible Slayer
+206	るつぼのゴライアス、ケテク	Kethek, Crucible Goliath
+207	免れ得ぬ破滅、ルーカ	Lukka, Bound to Ruin
+208	純潔の監視者、マルカトール	Malcator, Purity Overseer
+209	生ける治療、メリーラ	Melira, the Living Cure
+210	迷宮壊し、ミグロズ	Migloz, Maze Crusher
+211	慈悲無き者、ナヒリ	Nahiri, the Unforgiving
+212	屍気の腐敗僧	Necrogen Rotpriest
+213	謎のゴライアス、オヴィカ	Ovika, Enigma Goliath
+214	刃砦の災厄、リーア・イヴォール	Ria Ivor, Bane of Bladehold
+215	血清核のキマイラ	Serum-Core Chimera
+216	殺戮の歌い手	Slaughter Singer
+217	汚れた観察者	Tainted Observer
+218	歓喜する喧嘩屋、タイヴァー	Tyvar, Jubilant Brawler
+219	死体傀儡、ヴェンセール	Venser, Corpse Puppet
+220	生体解剖の福音者	Vivisection Evangelist
+221	虚空翼の混種	Voidwing Hybrid
+222	アージェンタムのマスティコア	Argentum Masticore
+223	アトラクサの疾牙	Atraxa's Skitterfang
+224	聖堂の頭蓋爆弾	Basilica Skullbomb
+225	ドロスの頭蓋爆弾	Dross Skullbomb
+226	砂丘動かし	Dune Mover
+227	金線の酒杯	The Filigree Sylex
+228	焼炉の頭蓋爆弾	Furnace Skullbomb
+229	止められぬ巨大戦車、グラーツ	Graaz, Unstoppable Juggernaut
+230	胆液板のゴーレム	Ichorplate Golem
+231	迷宮の頭蓋爆弾	Maze Skullbomb
+232	ミラディン人の隠れ家	Mirran Safehouse
+233	完全化記念碑	Monument to Perfection
+234	マイアの改宗者	Myr Convert
+235	マイアの守衛	Myr Custodian
+236	マイアの同族鍛冶	Myr Kinsmith
+237	ファイレクシアの大地図	Phyrexian Atlas
+238	予言のプリズム	Prophetic Prism
+239	注入用義腕	Prosthetic Injector
+240	肋骨艇	Ribskiff
+241	魂なき看守	Soulless Jailer
+242	完全化の杖	Staff of Compleation
+243	外科の頭蓋爆弾	Surgical Skullbomb
+244	鉱炉と前線の剣	Sword of Forge and Frontier
+245	完成化のタブレット	Tablet of Compleation
+246	頂点の記録者	Zenith Chronicler
+247	自律焼炉	The Autonomous Furnace
+248	黒割れの崖	Blackcleave Cliffs
+249	銅線の地溝	Copperline Gorge
+250	闇滑りの岸	Darkslick Shores
+251	ドロス窟	The Dross Pits
+252	美麗聖堂	The Fair Basilica
+253	狩猟迷宮	The Hunter Maze
+254	ミレックス	Mirrex
+255	記念ファサード	The Monumental Facade
+256	マイコシンスの庭	The Mycosynth Gardens
+257	剃刀境の茂み	Razorverge Thicket
+258	金属海の沿岸	Seachrome Coast
+259	種子中枢	The Seedcore
+260	外科区画	The Surgical Bay
+261	広漠なる変幻地	Terramorphic Expanse
+262		Plains (262)
+263		Island (263)
+264		Swamp (264)
+265		Mountain (265)
+266		Forest (266)
+267		Plains (267) (Phyrexian)
+268		Island (268) (Phyrexian)
+269		Swamp (269) (Phyrexian)
+270		Mountain (270) (Phyrexian)
+271		Forest (271) (Phyrexian)
+272		Plains (272)
+273		Island (273)
+274		Swamp (274)
+275		Mountain (275)
+276		Forest (276)
+277		Ossification
+278		Experimental Augury
+279		Sheoldred's Edict
+280		Bladehold War-Whip
+281		Slaughter Singer
+282		Karumonix, the Rat King
+283		Phyrexian Arena
+284		Green Sun's Twilight
+285		Bladed Ambassador (Showcase)
+286		Sinew Dancer (Showcase)
+287		Quicksilver Fisher (Showcase)
+288		Thrummingbird (Showcase)
+289		Blightbelly Rat (Showcase)
+290		Bonepicker Skirge (Showcase)
+291		Furnace Punisher (Showcase)
+292		Sawblade Scamp (Showcase)
+293		Urabrask's Anointer (Showcase)
+294		Cankerbloom (Showcase)
+295		Rustvine Cultivator (Showcase)
+296		Necrogen Rotpriest (Showcase)
+297		Myr Convert (Showcase)
+298		Elesh Norn, Mother of Machines (Showcase)
+299		Mondrak, Glory Dominus (Showcase)
+300		Phyrexian Vindicator (Showcase)
+301		Skrelv, Defector Mite (Showcase)
+302		Tekuthal, Inquiry Dominus (Showcase)
+303		Unctus, Grand Metatect (Showcase)
+304		Archfiend of the Dross (Showcase)
+305		Drivnod, Carnage Dominus (Showcase)
+306		Geth, Thane of Contracts (Showcase)
+307		Karumonix, the Rat King (Showcase)
+308		Phyrexian Obliterator (Showcase)
+309		Vraan, Executioner Thane (Showcase)
+310		Capricious Hellraiser (Showcase)
+311		Slobad, Iron Goblin (Showcase)
+312		Solphim, Mayhem Dominus (Showcase)
+313		Evolved Spinoderm (Showcase)
+314		Tyrranax Rex (Showcase)
+315		Zopandrel, Hunger Dominus (Showcase)
+316		Atraxa, Grand Unifier (Showcase)
+317		Ezuri, Stalker of Spheres (Showcase)
+318		Glissa Sunslayer (Showcase)
+319		Kethek, Crucible Goliath (Showcase)
+320		Malcator, Purity Overseer (Showcase)
+321		Migloz, Maze Crusher (Showcase)
+322		Ovika, Enigma Goliath (Showcase)
+323		Ria Ivor, Bane of Bladehold (Showcase)
+324		Venser, Corpse Puppet (Showcase)
+325		Jace, the Perfected Mind (Phyrexian)
+326		Vraska, Betrayal's Sting (Phyrexian)
+327		Nissa, Ascended Animist (Phyrexian)
+328		Lukka, Bound to Ruin (Phyrexian)
+329		Nahiri, the Unforgiving (Phyrexian)
+330		Kemba, Kha Enduring (Showcase)
+331		Thrun, Breaker of Silence (Showcase)
+332		Jor Kadeen, First Goldwarden (Showcase)
+333		Melira, the Living Cure (Showcase)
+334		Graaz, Unstoppable Juggernaut (Showcase)
+335		The Eternal Wanderer (Showcase)
+336		Jace, the Perfected Mind (Showcase)
+337		Vraska, Betrayal's Sting (Showcase)
+338		Koth, Fire of Resistance (Showcase)
+339		Nissa, Ascended Animist (Showcase)
+340		Kaito, Dancing Shadow (Showcase)
+341		Kaya, Intangible Slayer (Showcase)
+342		Lukka, Bound to Ruin (Showcase)
+343		Nahiri, the Unforgiving (Showcase)
+344		Tyvar, Jubilant Brawler (Showcase)
+345		Elesh Norn, Mother of Machines (Oil Slick Raised Foil)
+346		Mondrak, Glory Dominus (Oil Slick Raised Foil)
+347		Phyrexian Vindicator (Oil Slick Raised Foil)
+348		Ichormoon Gauntlet (Oil Slick Raised Foil)
+349		Tekuthal, Inquiry Dominus (Oil Slick Raised Foil)
+350		Drivnod, Carnage Dominus (Oil Slick Raised Foil)
+351		Phyrexian Obliterator (Oil Slick Raised Foil)
+352		All Will Be One (Oil Slick Raised Foil)
+353		Capricious Hellraiser (Oil Slick Raised Foil)
+354		Solphim, Mayhem Dominus (Oil Slick Raised Foil)
+355		Tyrranax Rex (Oil Slick Raised Foil)
+356		Zopandrel, Hunger Dominus (Oil Slick Raised Foil)
+357		Atraxa, Grand Unifier (Oil Slick Raised Foil)
+358		Staff of Compleation (Oil Slick Raised Foil)
+359		Sword of Forge and Frontier (Oil Slick Raised Foil)
+360		Jace, the Perfected Mind (Oil Slick Raised Foil)
+361		Vraska, Betrayal's Sting (Oil Slick Raised Foil)
+362		Nissa, Ascended Animist (Oil Slick Raised Foil)
+363		Lukka, Bound to Ruin (Oil Slick Raised Foil)
+364		Nahiri, the Unforgiving (Oil Slick Raised Foil)
+365		Plains (365) (Oil Slick Raised Foil)
+366		Island (366) (Oil Slick Raised Foil)
+367		Swamp (367) (Oil Slick Raised Foil)
+368		Mountain (368) (Oil Slick Raised Foil)
+369		Forest (369) (Oil Slick Raised Foil)
+370		Blackcleave Cliffs (Borderless)
+371		Copperline Gorge (Borderless)
+372		Darkslick Shores (Borderless)
+373		Razorverge Thicket (Borderless)
+374		Seachrome Coast (Borderless)
+375		Norn's Wellspring (Extended Art)
+376		Skrelv's Hive (Extended Art)
+377		White Sun's Twilight (Extended Art)
+378		Blade of Shared Souls (Extended Art)
+379		Blue Sun's Twilight (Extended Art)
+380		Encroaching Mycosynth (Extended Art)
+381		Mercurial Spelldancer (Extended Art)
+382		Mindsplice Apparatus (Extended Art)
+383		Black Sun's Twilight (Extended Art)
+384		Phyrexian Arena (Extended Art)
+385		Dragonwing Glider (Extended Art)
+386		Red Sun's Twilight (Extended Art)
+387		Urabrask's Forge (Extended Art)
+388		Vindictive Flamestoker (Extended Art)
+389		Bloated Contaminator (Extended Art)
+390		Conduit of Worlds (Extended Art)
+391		Green Sun's Twilight (Extended Art)
+392		Venerated Rotpriest (Extended Art)
+393		Argentum Masticore (Extended Art)
+394		The Filigree Sylex (Extended Art)
+395		Mirran Safehouse (Extended Art)
+396		Monument to Perfection (Extended Art)
+397		Soulless Jailer (Extended Art)
+398		Tablet of Compleation (Extended Art)
+399		Zenith Chronicler (Extended Art)
+400		Mirrex (Extended Art)
+401		The Monumental Facade (Extended Art)
+402		The Mycosynth Gardens (Extended Art)
+403		The Seedcore (Extended Art)
+404		Mite Overseer (Extended Art)
+405		Serum Sovereign (Extended Art)
+406		Kinzu of the Bleak Coven (Extended Art)
+407		Rhuk, Hexgold Nabber (Extended Art)
+408		Goliath Hatchery (Extended Art)
+409		Mite Overseer
+410		Serum Sovereign
+411		Kinzu of the Bleak Coven
+412		Rhuk, Hexgold Nabber
+413		Goliath Hatchery
+414		Elesh Norn, Mother of Machines (Phyrexian)
+415		Elesh Norn, Mother of Machines (Borderless)
+416		Elesh Norn, Mother of Machines (Concept Praetor)
+417		Bladed Ambassador (Showcase) (Step-and-Compleat Foil)
+418		Elesh Norn, Mother of Machines (Phyrexian) (Step-and-Compleat Foil)
+419		Elesh Norn, Mother of Machines (Borderless) (Step-and-Compleat Foil)
+420		Elesh Norn, Mother of Machines (Showcase) (Step-and-Compleat Foil)
+421		Elesh Norn, Mother of Machines (Concept Praetor) (Step-and-Compleat Foil)
+422		The Eternal Wanderer (Showcase) (Step-and-Compleat Foil)
+423		Kemba, Kha Enduring (Showcase) (Step-and-Compleat Foil)
+424		Mondrak, Glory Dominus (Showcase) (Step-and-Compleat Foil)
+425		Phyrexian Vindicator (Showcase) (Step-and-Compleat Foil)
+426		Sinew Dancer (Showcase) (Step-and-Compleat Foil)
+427		Skrelv, Defector Mite (Showcase) (Step-and-Compleat Foil)
+428		Jace, the Perfected Mind (Showcase) (Step-and-Compleat Foil)
+429		Jace, the Perfected Mind (Phyrexian) (Step-and-Compleat Foil)
+430		Quicksilver Fisher (Showcase) (Step-and-Compleat Foil)
+431		Tekuthal, Inquiry Dominus (Showcase) (Step-and-Compleat Foil)
+432		Thrummingbird (Showcase) (Step-and-Compleat Foil)
+433		Unctus, Grand Metatect (Showcase) (Step-and-Compleat Foil)
+434		Archfiend of the Dross (Showcase) (Step-and-Compleat Foil)
+435		Blightbelly Rat (Showcase) (Step-and-Compleat Foil)
+436		Bonepicker Skirge (Showcase) (Step-and-Compleat Foil)
+437		Drivnod, Carnage Dominus (Showcase) (Step-and-Compleat Foil)
+438		Geth, Thane of Contracts (Showcase) (Step-and-Compleat Foil)
+439		Karumonix, the Rat King (Showcase) (Step-and-Compleat Foil)
+440		Phyrexian Obliterator (Showcase) (Step-and-Compleat Foil)
+441		Vraan, Executioner Thane (Showcase) (Step-and-Compleat Foil)
+442		Vraska, Betrayal's Sting (Showcase) (Step-and-Compleat Foil)
+443		Vraska, Betrayal's Sting (Phyrexian) (Step-and-Compleat Foil)
+444		Capricious Hellraiser (Showcase) (Step-and-Compleat Foil)
+445		Furnace Punisher (Showcase) (Step-and-Compleat Foil)
+446		Koth, Fire of Resistance (Showcase) (Step-and-Compleat Foil)
+447		Sawblade Scamp (Showcase) (Step-and-Compleat Foil)
+448		Slobad, Iron Goblin (Showcase) (Step-and-Compleat Foil)
+449		Solphim, Mayhem Dominus (Showcase) (Step-and-Compleat Foil)
+450		Urabrask's Anointer (Showcase) (Step-and-Compleat Foil)
+451		Cankerbloom (Showcase) (Step-and-Compleat Foil)
+452		Evolved Spinoderm (Showcase) (Step-and-Compleat Foil)
+453		Nissa, Ascended Animist (Phyrexian) (Step-and-Compleat Foil)
+454		Nissa, Ascended Animist (Showcase) (Step-and-Compleat Foil)
+455		Rustvine Cultivator (Showcase) (Step-and-Compleat Foil)
+456		Thrun, Breaker of Silence (Showcase) (Step-and-Compleat Foil)
+457		Tyrranax Rex (Showcase) (Step-and-Compleat Foil)
+458		Zopandrel, Hunger Dominus (Showcase) (Step-and-Compleat Foil)
+459		Atraxa, Grand Unifier (Showcase) (Step-and-Compleat Foil)
+460		Ezuri, Stalker of Spheres (Showcase) (Step-and-Compleat Foil)
+461		Glissa Sunslayer (Showcase) (Step-and-Compleat Foil)
+462		Jor Kadeen, First Goldwarden (Showcase) (Step-and-Compleat Foil)
+463		Kaito, Dancing Shadow (Showcase) (Step-and-Compleat Foil)
+464		Kaya, Intangible Slayer (Showcase) (Step-and-Compleat Foil)
+465		Kethek, Crucible Goliath (Showcase) (Step-and-Compleat Foil)
+466		Lukka, Bound to Ruin (Phyrexian) (Step-and-Compleat Foil)
+467		Lukka, Bound to Ruin (Showcase) (Step-and-Compleat Foil)
+468		Malcator, Purity Overseer (Showcase) (Step-and-Compleat Foil)
+469		Melira, the Living Cure (Showcase) (Step-and-Compleat Foil)
+470		Migloz, Maze Crusher (Showcase) (Step-and-Compleat Foil)
+471		Nahiri, the Unforgiving (Showcase) (Step-and-Compleat Foil)
+472		Nahiri, the Unforgiving (Phyrexian) (Step-and-Compleat Foil)
+473		Necrogen Rotpriest (Showcase) (Step-and-Compleat Foil)
+474		Ovika, Enigma Goliath (Showcase) (Step-and-Compleat Foil)
+475		Ria Ivor, Bane of Bladehold (Showcase) (Step-and-Compleat Foil)
+476		Tyvar, Jubilant Brawler (Showcase) (Step-and-Compleat Foil)
+477		Venser, Corpse Puppet (Showcase) (Step-and-Compleat Foil)
+478		Graaz, Unstoppable Juggernaut (Showcase) (Step-and-Compleat Foil)
+479		Myr Convert (Showcase) (Step-and-Compleat Foil)

@@ -1,0 +1,377 @@
+001	飛空士の騎兵部隊	Aeronaut Cavalry
+002	空輸する従軍牧師	Airlift Chaplain
+003	待ち伏せの降下兵	Ambush Paratrooper
+004	災厄の痕跡	Calamity's Wake
+005	手厳しい反撃	Deadly Riposte
+006	解呪	Disenchant
+007	大砂漠探鉱者	Great Desert Prospector
+008	戦闘態勢	In the Trenches
+009	カイラの命令	Kayla's Command
+010	カイラの再建	Kayla's Reconstruction
+011	軍備放棄	Lay Down Arms
+012	第三の道のロラン	Loran of the Third Path
+013	歴史学の信奉者、ロラン	Loran, Disciple of History
+014	ロランの脱出	Loran's Escape
+015	大量生産	Mass Production
+016	行き届いた採掘	Meticulous Excavation
+017	軍事規律	Military Discipline
+018	アルガイヴの盾、ミュレル	Myrel, Shield of Argive
+019	密集軍の先兵	Phalanx Vanguard
+020	パワーストーン技師	Powerstone Engineer
+021	服役	Prison Sentence
+022	再稼働	Recommission
+023	徴兵士官	Recruitment Officer
+024	修復と充電	Repair and Recharge
+025	包囲の古参兵	Siege Veteran
+026	魂の仕切り	Soul Partition
+027	静止網	Static Net
+028	コーリスの生存者	Survivor of Korlis
+029	飛行機械の設計家	Thopter Architect
+030	トカシアの歓待	Tocasia's Welcome
+031	第三の道の機構	Union of the Third Path
+032	大将軍の精鋭	Warlord's Elite
+033	ヨーティアの衛生兵	Yotian Medic
+034	自律型組立工	Autonomous Assembler
+035	戦闘の打破者	Combat Thresher
+036	小隊分配機	Platoon Dispenser
+037	屑鉄造りの軍勢	Scrapwork Cohort
+038	鋼の熾天使	Steel Seraph
+039	トカシアのオニュレット	Tocasia's Onulet
+040	ウルザの酒杯	Urza's Sylex
+041	古参兵の魔力刃	Veteran's Powerblade
+042	ヨーティアの前線兵	Yotian Frontliner
+043	空挺司令官	Air Marshal
+044	情報収集	Curate
+045	組立分解	Defabricate
+046	同調解除	Desynchronize
+047	ラト＝ナムの創立者、ドラフナ	Drafna, Founder of Lat-Nam
+048	ファラジの考古学者	Fallaji Archaeologist
+049	知識の流れ	Flow of Knowledge
+050	錨の鍛錬	Forging the Anchor
+051	熟練の魔術師、ハーキル	Hurkyl, Master Wizard
+052	ハーキルの最後の瞑想	Hurkyl's Final Meditation
+053	不本意な冷却時間	Involuntary Cooldown
+054	抑揚の番人	Keeper of the Cadence
+055	コイロスのロック鳥	Koilos Roc
+056	ラト＝ナムの達人	Lat-Nam Adept
+057	機械力	Machine Over Matter
+058	マイトストーンの稼動力	Mightstone's Animation
+059	多元宇宙と共に	One with the Multiverse
+060	回収任務の工作員	Retrieval Agent
+061	散乱光	Scatter Ray
+062	天空射の士官	Skystrike Officer
+063	パワーストーンの分割	Splitting the Powerstone
+064	厳しい授業	Stern Lesson
+065	飛び立ち	Take Flight
+066	時間の旅人、テフェリー	Teferi, Temporal Pilgrim
+067	第三の道の学者	Third Path Savant
+068	飛行機械の整備士	Thopter Mechanic
+069	パワーストーンの神童、ウルザ	Urza, Powerstone Prodigy
+070	ウルザの命令	Urza's Command
+071	ウルザの拒絶	Urza's Rebuff
+072	ウィークストーンの支配力	Weakstone's Subjugation
+073	翼の猛士	Wing Commando
+074	微風の歩哨	Zephyr Sentinel
+075	秘儀の代理者	Arcane Proxy
+076	沿岸の防壁	Coastal Bulwark
+077	戦闘急使	Combat Courier
+078	深奥の突撃巨像	Depth Charge Colossus
+079	巨体変異	Hulking Metamorph
+080	観測用飛行機械	Spotter Thopter
+081	高波エンジン	Surge Engine
+082	時空錨	The Temporal Anchor
+083	テリシアの精神壊し	Terisian Mindbreaker
+084	肉体装置技師、アシュノッド	Ashnod, Flesh Mechanist
+085	アシュノッドの介入	Ashnod's Intervention
+086	戦場の解体屋	Battlefield Butcher
+087	屍肉蝗	Carrion Locust
+088	堕落	Corrupt
+089	悪魔の意図	Diabolic Intent
+090	ギックスの信奉者	Disciples of Gix
+091	見栄え損ない	Disfigure
+092	鋼と油の夢	Dreams of Steel and Oil
+093	応急溶接	Emergency Weld
+094	運命的連携	Fateful Handoff
+095	ヨーグモスの法務官、ギックス	Gix, Yawgmoth Praetor
+096	ギックスの愛撫	Gix's Caress
+097	ギックスの命令	Gix's Command
+098	ギックスの潜入者	Gixian Infiltrator
+099	ギックスのくぐつ師	Gixian Puppeteer
+100	ギックスの頭蓋剥ぎ	Gixian Skullflayer
+101	かじりつく害獣	Gnawing Vermin
+102	喉首狙い	Go for the Throat
+103	陰惨な実現	Gruesome Realization
+104	喉鳴らしの選定者	Gurgling Anointer
+105	敵意ある交渉	Hostile Negotiations
+106	殺戮領域の軽業師	Kill-Zone Acrobat
+107	苦難の影	Misery's Shadow
+108	抵抗の時	Moment of Defiance
+109	誰も置き去りにしない	No One Left Behind
+110	やり場のない悔恨	Overwhelming Remorse
+111	痛ましい苦境	Painful Quandary
+112	パワーストーン破砕	Powerstone Fracture
+113	貪欲な巨大モグラ	Ravenous Gigamole
+114	スランの夜警	Thran Vigil
+115	トラクス魔	Thraxodemon
+116	塹壕の忍び寄り	Trench Stalker
+117	アシュノッドの収穫者	Ashnod's Harvester
+118	土の帰還者	Clay Revenant
+119	底ざらいの鉤爪	Dredging Claw
+120	突き刺す戦耕し	Goring Warplow
+121	ファイレクシアの肉体喰らい	Phyrexian Fleshgorger
+122	剃刀鞭の人体改造機	Razorlash Transmogrant
+123	屑鉄造りの憤怒獣	Scrapwork Rager
+124	人体改造機の供犠台	Transmogrant Altar
+125	人体改造機の冠	Transmogrant's Crown
+126	軍拡競争	Arms Race
+127	苦々しい再会	Bitter Reunion
+128	兄弟仲の終焉	Brotherhood's End
+129	徴集された歩兵部隊	Conscripted Infantry
+130	ドラゴンの運命	Draconic Destiny
+131	ドワーフの炉の詠唱者	Dwarven Forge-Chanter
+132	採掘爆発	Excavation Explosion
+133	クルーグの陥落	The Fall of Kroog
+134	ファラジの鎖舞士	Fallaji Chaindancer
+135	ロノムの発掘家、フェルドン	Feldon, Ronom Excavator
+136	巨大焦がし大口	Giant Cindermaw
+137	ゴブリンの爆風走り	Goblin Blast-Runner
+138	有角の石探し	Horned Stoneseeker
+139	機械化戦	Mechanized Warfare
+140	採掘の神童、ミシュラ	Mishra, Excavation Prodigy
+141	ミシュラの命令	Mishra's Command
+142	ミシュラの支配	Mishra's Domination
+143	ミシュラの猛攻	Mishra's Onslaught
+144	僧院の速槍	Monastery Swiftspear
+145	抹消する稲妻	Obliterating Bolt
+146	やり過ぎ	Over the Top
+147	ペンレゴンの剛牛	Penregon Strongbull
+148	代償破	Pyrrhic Blast
+149	焼き討ち	Raze to the Ground
+150	ロック鳥狩り	Roc Hunter
+151	サルディアの岸壁踏み	Sardian Cliffstomper
+152	拮抗する兄弟	Sibling Rivalry
+153	トマクルの屑鉄鍛冶	Tomakul Scrapsmith
+154	カー峠の暴君	Tyrant of Kher Ridges
+155	拡散砲	Unleash Shell
+156	ファイレクシアの幻視	Visions of Phyrexia
+157	旋回斬り	Whirling Strike
+158	奇襲用自動機械	Blitz Automaton
+159	ファラジのドラゴン・エンジン	Fallaji Dragon Engine
+160	重量級破砕機	Heavyweight Demolisher
+161	ミシュラの巨大戦車	Mishra's Juggernaut
+162	ミシュラの研究机	Mishra's Research Desk
+163	ファイレクシアのドラゴン・エンジン	Phyrexian Dragon Engine
+164	屑鉄造りの雑種犬	Scrapwork Mutt
+165	瞬足光線の大隊	Skitterbeam Battalion
+166	合金の精霊信者	Alloy Animist
+167	アルゴスの日和見主義者	Argothian Opportunist
+168	アルゴスのスプライト	Argothian Sprite
+169	無鉄砲	Audacity
+170	森林の目覚め	Awaken the Woods
+171	ブランチウッドの鎧	Blanchwood Armor
+172	ブランチウッドのうろつくもの	Blanchwood Prowler
+173	穴掘り剃刀大口	Burrowing Razormaw
+174	薮打ち	Bushwhack
+175	シタヌールの重鎮	Citanul Stalwart
+176	勇壮な対決	Epic Confrontation
+177	歴史の彼方	Fade from History
+178	ファラジの発掘	Fallaji Excavation
+179	獣相のシャーマン	Fauna Shaman
+180	戦の霧	Fog of War
+181	ガイアの狩猟者	Gaea's Courser
+182	ガイアの贈り物	Gaea's Gift
+183	巨大化	Giant Growth
+184	節くれ根の棺担ぎ	Gnarlroot Pallbearer
+185	ガイアの眼、グウェナ	Gwenna, Eyes of Gaea
+186	溜め込むイトグモ	Hoarding Recluse
+187	強情なベイロス	Obstinate Baloth
+188	防衛線の巡回兵	Perimeter Patrol
+189	サリンスの鋼探し	Sarinth Steelseeker
+190	撃ち落とし	Shoot Down
+191	タウノスの修繕	Tawnos's Tinkering
+192	生歯の子ワーム	Teething Wurmlet
+193	ガイアの声、ティタニア	Titania, Voice of Gaea
+194	ティタニアの命令	Titania's Command
+195	トマクルの儀仗兵	Tomakul Honor Guard
+196	荒涼たる収穫	Wasteful Harvest
+197	岩枝のゴーレム	Boulderbranch Golem
+198	揺籃の地の乱伐者	Cradle Clearcutter
+199	機能不全ダニ	Haywire Mite
+200	鉄管の破壊者	Iron-Craw Crusher
+201	翡翠細工師の仮面	Mask of the Jadecrafter
+202	常緑のビヒモス	Perennial Behemoth
+203	根導線の融合体	Rootwire Amalgam
+204	錆ゴライアス	Rust Goliath
+205	猿人の似姿	Simian Simulacrum
+206	大石弓の技師	Arbalest Engineers
+207	電池持ち	Battery Bearer
+208	死花の祭儀師	Deathbloom Ritualist
+209	統合の福音者	Evangel of Synthesis
+210	ファラジの先兵	Fallaji Vanguard
+211	忠実な護衛、ハジャール	Hajar, Loyal Bodyguard
+212	先兵の飛行士、ハービン	Harbin, Vanguard Aviator
+213	砂丘の英雄	Hero of the Dunes
+214	廃品置場の天才	Junkyard Genius
+215	軍勢を灰に	Legions to Ashes
+216	ギックスに拾われし者、ミシュラ	Mishra, Claimed by Gix
+217	マク・ファワを手懐ける者、ミシュラ	Mishra, Tamer of Mak Fawa
+218	カイラ・ビン・クルーグ女王	Queen Kayla bin-Kroog
+219	金線使い、サヒーリ	Saheeli, Filigree Master
+220	サリンスの大ワーム	Sarinth Greatwurm
+221	空漁師の蜘蛛	Skyfisher Spider
+222	玩具職人、タウノス	Tawnos, the Toymaker
+223	第三の道の偶像破壊者	Third Path Iconoclast
+224	採掘場の師、トカシア	Tocasia, Dig Site Mentor
+225	護国卿、ウルザ	Urza, Lord Protector
+226	クルーグ公、ウルザ	Urza, Prince of Kroog
+227	ヨーティアの造反者	Yotian Dissident
+228	ヨーティアの戦術家	Yotian Tactician
+229	刃とぐろの蛇	Bladecoil Serpent
+230	土の勇者	Clay Champion
+231	飛空士の翼	Aeronaut's Wings
+232	アルガイヴの報復者	Argivian Avenger
+233	街並みの地ならし屋	Cityscape Leveler
+234	エネルギー屈折体	Energy Refractor
+235	ゴブリンの焼夷弾	Goblin Firebomb
+236	浮遊する像	Levitating Statue
+237	ウルザの空戦艇、リベレーター号	Liberator, Urza's Battlethopter
+238	マイトストーンとウィークストーン	The Mightstone and Weakstone
+239	鉱山の作業員	Mine Worker
+240	ファイレクシアへの門	Portal to Phyrexia
+241	魔力炉の作業員	Power Plant Worker
+242	修復された飛行機械	Reconstructed Thopter
+243	金屑石の精錬所	Slagstone Refinery
+244	光波の歩哨	Spectrum Sentinel
+245	停滞の棺	The Stasis Coffin
+246	鋼の模範	Steel Exemplar
+247	石の脳	The Stone Brain
+248	岩石回収機	Stone Retrieval Unit
+249	洞窟の番人、スー＝チー	Su-Chi Cave Guard
+250	物資投下	Supply Drop
+251	速歯車のドレイク	Swiftgear Drake
+252	均整のマトリックス	Symmetry Matrix
+253	スランの魔力鎧	Thran Power Suit
+254	スランの蜘蛛	Thran Spider
+255	塔の作業員	Tower Worker
+256	自然の聖域、アルゴス	Argoth, Sanctum of Nature
+257	戦場の鍛冶場	Battlefield Forge
+258	爆発域	Blast Zone
+259	低木林地	Brushland
+260	解体爆破場	Demolition Field
+261	進化する未開地	Evolving Wilds
+262	要塞化した海岸堡	Fortified Beachhead
+263	タグシンの広間	Hall of Tagsin
+264	ラノワールの荒原	Llanowar Wastes
+265	ミシュラの鋳造所	Mishra's Foundry
+266	トカシアの採掘場	Tocasia's Dig Site
+267	地底の大河	Underground River
+268		Plains (268)
+269		Plains (269)
+270		Island (270)
+271		Island (271)
+272		Swamp (272)
+273		Swamp (273)
+274		Mountain (274)
+275		Mountain (275)
+276		Forest (276)
+277		Forest (277)
+278		Plains (278)
+279		Plains (279)
+280		Island (280)
+281		Island (281)
+282		Swamp (282)
+283		Swamp (283)
+284		Mountain (284)
+285		Mountain (285)
+286		Forest (286)
+287		Forest (287)
+288	救助レトリバー	Rescue Retriever
+289	地質学狂い	Geology Enthusiast
+290	恐怖のバリスタ	Terror Ballista
+291	工匠のドラゴン	Artificer's Dragon
+292	森呼び自動機械	Woodcaller Automaton
+293		Teferi, Temporal Pilgrim (Borderless)
+294		Saheeli, Filigree Master (Borderless)
+295		Mishra, Tamer of Mak Fawa (Borderless)
+296		Urza, Prince of Kroog (Borderless)
+297		Battlefield Forge (Borderless)
+298		Brushland (Borderless)
+299		Llanowar Wastes (Borderless)
+300		Underground River (Borderless)
+301		In the Trenches (Extended Art)
+302		Kayla's Command (Extended Art)
+303		Kayla's Reconstruction (Extended Art)
+304		Loran of the Third Path (Extended Art)
+305		Myrel, Shield of Argive (Extended Art)
+306		Siege Veteran (Extended Art)
+307		Soul Partition (Extended Art)
+308		Tocasia's Welcome (Extended Art)
+309		Autonomous Assembler (Extended Art)
+310		Platoon Dispenser (Extended Art)
+311		Steel Seraph (Extended Art)
+312		Urza's Sylex (Extended Art)
+313		Drafna, Founder of Lat-Nam (Extended Art)
+314		Hurkyl, Master Wizard (Extended Art)
+315		Hurkyl's Final Meditation (Extended Art)
+316		One with the Multiverse (Extended Art)
+317		Skystrike Officer (Extended Art)
+318		Urza's Command (Extended Art)
+319		Arcane Proxy (Extended Art)
+320		Surge Engine (Extended Art)
+321		The Temporal Anchor (Extended Art)
+322		Terisian Mindbreaker (Extended Art)
+323		Ashnod, Flesh Mechanist (Extended Art)
+324		Diabolic Intent (Extended Art)
+325		Fateful Handoff (Extended Art)
+326		Gix, Yawgmoth Praetor (Extended Art)
+327		Gix's Command (Extended Art)
+328		Gixian Puppeteer (Extended Art)
+329		Hostile Negotiations (Extended Art)
+330		Misery's Shadow (Extended Art)
+331		Painful Quandary (Extended Art)
+332		Phyrexian Fleshgorger (Extended Art)
+333		Razorlash Transmogrant (Extended Art)
+334		Transmogrant's Crown (Extended Art)
+335		Brotherhood's End (Extended Art)
+336		Draconic Destiny (Extended Art)
+337		Feldon, Ronom Excavator (Extended Art)
+338		Mechanized Warfare (Extended Art)
+339		Mishra's Command (Extended Art)
+340		Over the Top (Extended Art)
+341		Tyrant of Kher Ridges (Extended Art)
+342		Visions of Phyrexia (Extended Art)
+343		Skitterbeam Battalion (Extended Art)
+344		Awaken the Woods (Extended Art)
+345		Fade from History (Extended Art)
+346		Fauna Shaman (Extended Art)
+347		Gwenna, Eyes of Gaea (Extended Art)
+348		Teething Wurmlet (Extended Art)
+349		Titania's Command (Extended Art)
+350		Perennial Behemoth (Extended Art)
+351		Rootwire Amalgam (Extended Art)
+352		Simian Simulacrum (Extended Art)
+353		Deathbloom Ritualist (Extended Art)
+354		Hajar, Loyal Bodyguard (Extended Art)
+355		Harbin, Vanguard Aviator (Extended Art)
+356		Legions to Ashes (Extended Art)
+357		Queen Kayla bin-Kroog (Extended Art)
+358		Sarinth Greatwurm (Extended Art)
+359		Tawnos, the Toymaker (Extended Art)
+360		Tocasia, Dig Site Mentor (Extended Art)
+361		Bladecoil Serpent (Extended Art)
+362		Clay Champion (Extended Art)
+363		Cityscape Leveler (Extended Art)
+364		Liberator, Urza's Battlethopter (Extended Art)
+365		Portal to Phyrexia (Extended Art)
+366		The Stasis Coffin (Extended Art)
+367		The Stone Brain (Extended Art)
+368		Thran Spider (Extended Art)
+369		Blast Zone (Extended Art)
+370		Fortified Beachhead (Extended Art)
+371		Hall of Tagsin (Extended Art)
+372		Mishra's Foundry (Extended Art)
+373		Rescue Retriever (Extended Art)
+374		Geology Enthusiast (Extended Art)
+375		Terror Ballista (Extended Art)
+376		Artificer's Dragon (Extended Art)
+377		Woodcaller Automaton (Extended Art)

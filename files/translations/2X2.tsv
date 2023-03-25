@@ -1,0 +1,579 @@
+001	引き裂かれし永劫、エムラクール	Emrakul, the Aeons Torn
+002	真実の解体者、コジレック	Kozilek, Butcher of Truth
+003	無限に廻るもの、ウラモグ	Ulamog, the Infinite Gyre
+004	アブザンの鷹匠	Abzan Falconer
+005	アイノクの盟族	Ainok Bond-Kin
+006	武勇の選定師	Anointer of Valor
+007	戦地昇進	Battlefield Promotion
+008	神聖な訪問	Divine Visitation
+009	宿命の旅人	Doomed Traveler
+010	祝福されたエミエル	Emiel the Blessed
+011	ちらつき鬼火	Flickerwisp
+012	神々の思し召し	Gods Willing
+013	ハイエナの陰影	Hyena Umbra
+014	騎士の勇気	Knightly Valor
+015	今わの際	Last Breath
+016	レオニンの裁き人	Leonin Arbiter
+017	弱者の師	Mentor of the Meek
+018	月皇ミケウス	Mikaeus, the Lunarch
+019	民兵のラッパ手	Militia Bugler
+020	一瞬の瞬き	Momentary Blink
+021	僧院の導師	Monastery Mentor
+022	神話実現	Myth Realized
+023	流刑への道	Path to Exile
+024	救援隊長	Relief Captain
+025	修復の天使	Restoration Angel
+026	目覚ましヒバリ	Reveillark
+027	鱗の祝福	Scale Blessing
+028	道の探求者	Seeker of the Way
+029	探知の接合者	Sensor Splicer
+030	超現実的決着	Settle Beyond Reality
+031	息詰まる徴税	Smothering Tithe
+032	テフェリーの防御	Teferi's Protection
+033	前兆の壁	Wall of Omens
+034	雨ざらしの旅人	Weathered Wayfarer
+035	天馬の乗り手	Wingsteed Rider
+036	改良された縫い翼	Advanced Stitchwing
+037	霊気撃ち	Aethersnipe
+038	予言により	As Foretold
+039	エイヴンの修練者	Aven Initiate
+040	影武者	Body Double
+041	打開	Breakthrough
+042	捕獲球	Capture Sphere
+043	聖別されたスフィンクス	Consecrated Sphinx
+044	綿密な分析	Deep Analysis
+045	錯乱した助手	Deranged Assistant
+046	輪の信奉者	Disciple of the Ring
+047	家畜化	Domestication
+048	長魚の陰影	Eel Umbra
+049	禁忌の錬金術	Forbidden Alchemy
+050	否定の力	Force of Negation
+051	けちな贈り物	Gifts Ungiven
+052	巧妙なスカーブ	Ingenious Skaab
+053	ジェスカイの長老	Jeskai Elder
+054	カズミナの変成	Kasmina's Transmutation
+055	ケデレクトのリバイアサン	Kederekt Leviathan
+056	その場しのぎのやっかいもの	Makeshift Mauler
+057	マナ吸収	Mana Drain
+058	マナ漏出	Mana Leak
+059	霧炎の達人	Mistfire Adept
+060	熟考漂い	Mulldrifter
+061	ネファリアの密輸人	Nephalia Smuggler
+062	明日からの引き寄せ	Pull from Tomorrow
+063	呪文貫き	Spell Pierce
+064	空召喚士ターランド	Talrand, Sky Summoner
+065	思考掃き	Thought Scour
+066	造物の学者、ヴェンセール	Venser, Shaper Savant
+067	洗い流し	Wash Out
+068	欄干のスパイ	Balustrade Spy
+069	苦花	Bitterblossom
+070	血の芸術家	Blood Artist
+071	流血の鑑定人	Bloodflow Connoisseur
+072	捕らわれの宿主	Carrier Thrall
+073	滅び	Damnation
+074	見栄え損ない	Disfigure
+075	眼腐りの終焉	Eyeblight's Ending
+076	喉首狙い	Go for the Throat
+077	墓刃の匪賊	Graveblade Marauder
+078	墓所這い	Gravecrawler
+079	伝国の玉璽	Imperial Seal
+080	コジレックの審問	Inquisition of Kozilek
+081	最後の望み、リリアナ	Liliana, the Last Hope
+082	リリアナの精鋭	Liliana's Elite
+083	壊死のウーズ	Necrotic Ooze
+084	解き放たれし者、オブ・ニクシリス	Ob Nixilis, Unshackled
+085	ウーナのうろつく者	Oona's Prowler
+086	闇の末裔	Scion of Darkness
+087	探求者の従者	Seekers' Squire
+088	切断された糸	Severed Strands
+089	影生まれの使徒	Shadowborn Apostle
+090	骸骨射手	Skeleton Archer
+091	皮裂き	Skinrender
+092	不死の断片	Strands of Undeath
+093	超常的耐久力	Supernatural Stamina
+094	外科的摘出	Surgical Extraction
+095	掘葬の儀式	Unburial Rites
+096	発掘	Unearth
+097	吸血鬼の君主	Vampire Sovereign
+098	吸血の儀式	Vampiric Rites
+099	不死の援護者、ヤヘンニ	Yahenni, Undying Partisan
+100	ケラル砦の修道院長	Abbot of Keral Keep
+101	死に微笑むもの、アリーシャ	Alesha, Who Smiles at Death
+102	神々の憤怒	Anger of the Gods
+103	逆噴射のヘルカイト	Backdraft Hellkite
+104	騒乱の歓楽者	Bedlam Reveler
+105	混沌のねじれ	Chaos Warp
+106	闇住まいの神託者	Dark-Dweller Oracle
+107	波止場の恐喝者	Dockside Extortionist
+108	夢固めのシャーマン	Dreamshaper Shaman
+109	焦熱の落下	Fiery Fall
+110	ゴブリンの旗持ち	Goblin Banneret
+111	大いなるガルガドン	Greater Gargadon
+112	競技会の英雄	Hero of the Games
+113	風切るイグアナール	Hissing Iguanar
+114	クルーインの打撃者	Kruin Striker
+115	迷宮の勇者	Labyrinth Champion
+116	溶岩コイル	Lava Coil
+117	稲妻	Lightning Bolt
+118	生ける稲妻	Living Lightning
+119	僧院の速槍	Monastery Swiftspear
+120	海賊の略奪	Pirate's Pillage
+121	パーフォロスの使者	Purphoros's Emissary
+122	裂け目の稲妻	Rift Bolt
+123	歴戦の紅蓮術士	Seasoned Pyromancer
+124	火花魔道士の計略	Sparkmage's Gambit
+125	よろめきショック	Staggershock
+126	風雲艦隊の紅蓮術士	Storm Fleet Pyromancer
+127	現実離れした回顧	Surreal Memoir
+128	タイタンの力	Titan's Strength
+129	双つ身の炎	Twinflame
+130	戦士の誓言	Warrior's Oath
+131	若き紅蓮術士	Young Pyromancer
+132	アロサウルス飼い	Allosaurus Shepherd
+133	待ち伏せ	Ambuscade
+134	苛立つアルティサウルス	Annoyed Altisaur
+135	アラクナスの紡ぎ手	Arachnus Spinner
+136	アラクナスの蜘蛛の巣	Arachnus Web
+137	生体性改造	Biogenic Upgrade
+138	花を手入れする者	Bloom Tender
+139	斑の子猪	Brindle Shoat
+140	ケンタウルスの戦上手	Centaur Battlemaster
+141	調和の中心	Concordant Crossroads
+142	命取りの出家蜘蛛	Deadly Recluse
+143	献身のドルイド	Devoted Druid
+144	エルフの再生者	Elvish Rejuvenator
+145	永遠の証人	Eternal Witness
+146	実験体	Experiment One
+147	食物連鎖	Food Chain
+148	節くれ背のサイ	Gnarlback Rhino
+149	過去との取り組み	Grapple with the Past
+150	緑の太陽の頂点	Green Sun's Zenith
+151	硬化した鱗	Hardened Scales
+152	動じない大ワーム	Impervious Greatwurm
+153	古きクローサの力	Might of Old Krosa
+154	ムル・ダヤの巫女	Oracle of Mul Daya
+155	不屈の自然	Rampant Growth
+156	怨恨	Rancor
+157	ピーマの改革派、リシュカー	Rishkar, Peema Renegade
+158	蜘蛛の発生	Spider Spawning
+159	裂け木の恐怖	Splinterfright
+160	花盛りの夏	Summer Bloom
+161	生育	Thrive
+162	旅の準備	Travel Preparations
+163	牙守りの隊長	Tuskguard Captain
+164	巣網編みの変わり身	Webweaver Changeling
+165	アブザンの隆盛	Abzan Ascendancy
+166	アブザンの魔除け	Abzan Charm
+167	霊気魔道士の接触	Aethermage's Touch
+168	苦悶のねじれ	Agony Warp
+169	運命を変える者、アミナトゥ	Aminatou, the Fateshifter
+170	苦渋の破棄	Anguished Unmaking
+171	精霊の魂、アニマー	Animar, Soul of Elements
+172	変容する炎、アルジュン	Arjun, the Shifting Flame
+173	灰燼の乗り手	Ashen Rider
+174	アッシェンムーアのしもべ	Ashenmoor Liege
+175	暗殺者の戦利品	Assassin's Trophy
+176	アタルカの命令	Atarka's Command
+177	巣を守る者、アトラ・パラーニ	Atla Palani, Nest Tender
+178	穴開け三昧	Auger Spree
+179	戦導者オレリア	Aurelia, the Warleader
+180	迎え火のしもべ	Balefire Liege
+181	バントの魔除け	Bant Charm
+182	熊の仲間	Bear's Companion
+183	猛火のヘルハウンド	Blazing Hellhound
+184	血編み髪のエルフ	Bloodbraid Elf
+185	血水の化身	Bloodwater Entity
+186	猪牙のしもべ	Boartusk Liege
+187	ルクサの恵み	Bounty of the Luxa
+188	白日の下に	Bring to Light
+189	炎樹族の使者	Burning-Tree Emissary
+190	饗宴への召集	Call to the Feast
+191	カルテルの貴種	Cartel Aristocrat
+192	アラーラの子	Child of Alara
+193	英雄の記録者	Chronicler of Heroes
+194	とぐろ巻きの巫女	Coiling Oracle
+195	議事会の導師	Conclave Mentor
+196	はじける破滅	Crackling Doom
+197	軋み森のしもべ	Creakwood Liege
+198	ダクの複製	Dack's Duplicate
+199	不屈の随員	Dauntless Escort
+200	死を運ぶ者のしもべ	Deathbringer Liege
+201	包囲の塔、ドラン	Doran, the Siege Tower
+202	龍王ドロモカ	Dragonlord Dromoka
+203	龍王シルムガル	Dragonlord Silumgar
+204	屑肉の刻み獣	Dreg Mangler
+205	ドラグスコルの肉裂き	Drogskol Reaver
+206	ドロモカの命令	Dromoka's Command
+207	薄暮薔薇、エレンダ	Elenda, the Dusk Rose
+208	無限のエルシャ	Elsha of the Infinite
+209	浄火の大天使	Empyrial Archangel
+210	闇からの摘出	Extract from Darkness
+211	進化の爪、エズーリ	Ezuri, Claw of Progress
+212	焦熱の裁き	Fiery Justice
+213	運命の大立者	Figure of Destiny
+214	火刃の芸術家	Fireblade Artist
+215	ファイアソングとサンスピーカー	Firesong and Sunspeaker
+216	胞子の教祖、ゲイヴ	Ghave, Guru of Spores
+217	エレンドラ谷のしもべ	Glen Elendra Liege
+218	不可思の一瞥	Glimpse the Unthinkable
+219	栄光鱗のヴィーアシーノ	Gloryscale Viashino
+220	光胞子のシャーマン	Glowspore Shaman
+221	アウグスティン四世大判事	Grand Arbiter Augustin IV
+222	残忍な剥ぎ取り	Grim Flayer
+223	地上の突撃	Ground Assault
+224	誘導路	Guided Passage
+225	ヘルカイトの首領	Hellkite Overlord
+226	英雄的援軍	Heroic Reinforcements
+227	人質取り	Hostage Taker
+228	ハイドロイド混成体	Hydroid Krasis
+229	夢見るものインテット	Intet, the Dreamer
+230	イゼットの魔除け	Izzet Charm
+231	ジェスカイの隆盛	Jeskai Ascendancy
+232	ジェスカイの魔除け	Jeskai Charm
+233	永遠の大魔道師、ジョダー	Jodah, Archmage Eternal
+234	災いの歌姫、ジュディス	Judith, the Scourge Diva
+235	巨大なるカーリア	Kaalia of the Vast
+236	無慈悲なる者ケアヴェク	Kaervek the Merciless
+237	配分の領事、カンバール	Kambal, Consul of Allocation
+238	幽霊の酋長、カラドール	Karador, Ghost Chieftain
+239	コラガンの命令	Kolaghan's Command
+240	溶岩崩れ	Lavalanche
+241	団体のギルド魔道士	League Guildmage
+242	軍団の戦略	Legion's Initiative
+243	稲妻のらせん	Lightning Helix
+244	絶滅の王	Lord of Extinction
+245	ロッテスのトロール	Lotleth Troll
+246	リーヴの空騎士	Lyev Skyknight
+247	厳然たるスフィンクス	Magister Sphinx
+248	黒薔薇のマルチェッサ	Marchesa, the Black Rose
+249	軍部の栄光	Martial Glory
+250	練達の生術師	Master Biomancer
+251	残虐の達人	Master of Cruelties
+252	悪鬼追い、マシス	Mathas, Fiend Seeker
+253	メイエルのアリア	Mayael's Aria
+254	擬態の原形質	The Mimeoplasm
+255	精神壊しのしもべ	Mindwrack Liege
+256	ミストメドウの魔女	Mistmeadow Witch
+257	イズマグナスのミジックス	Mizzix of the Izmagnus
+258	墓場波、ムルドローサ	Muldrotha, the Gravetide
+259	暗悪鬼のしもべ	Murkfiend Liege
+260	王神、ニコル・ボーラス	Nicol Bolas, God-Pharaoh
+261	オルゾフの司教	Orzhov Pontiff
+262	ファイレクシアの暴政	Phyrexian Tyranny
+263	特権階級	Privileged Position
+264	秘蔵の縫合体	Prized Amalgam
+265	予言の稲妻	Prophetic Bolt
+266	心理共生体	Psychic Symbiont
+267	クァーサルの群れ魔道士	Qasali Pridemage
+268	数多のラフィーク	Rafiq of the Many
+269	川ヤツガシラ	River Hoopoe
+270	隠された領域のローン	Roon of the Hidden Realm
+271	自由なる者ルーリク・サー	Ruric Thar, the Unbowed
+272	瘡蓋族の巨人	Scab-Clan Giant
+273	セドラクシスの死霊	Sedraxis Specter
+274	裏切り者の王、セドリス	Sedris, the Traitor King
+275	破砕団の兄弟	Shattergang Brothers
+276	血の暴君、シディシ	Sidisi, Brood Tyrant
+277	歩く墓場、髑髏茨	Skullbriar, the Walking Grave
+278	芽吹くトリナクス	Sprouting Thrinax
+279	スゥルタイの占い屋	Sultai Soothsayer
+280	至高の評決	Supreme Verdict
+281	魂を数える者、タリエル	Tariel, Reckoner of Souls
+282	収穫するものテネブ	Teneb, the Harvester
+283	第10管区の軍団兵	Tenth District Legionnaire
+284	終止	Terminate
+285	シスルダウンのしもべ	Thistledown Liege
+286	千年嵐	Thousand-Year Storm
+287	スラクジムンダール	Thraximundar
+288	塔のガーゴイル	Tower Gargoyle
+289	憎悪の種、ウラシュト	Ulasht, the Hate Seed
+290	霧を歩むもの、ウリル	Uril, the Miststalker
+291	リッチの女王、ヴァリーナ	Varina, Lich Queen
+292	悪逆な富	Villainous Wealth
+293	ネコルーの女王、ワシトラ	Wasitora, Nekoru Queen
+294	萎れ葉のしもべ	Wilt-Leaf Liege
+295	翼のコアトル	Winged Coatl
+296	レンと六番	Wrenn and Six
+297	結界師ズアー	Zur the Enchanter
+298	霊気の薬瓶	Aether Vial
+299	血鍛冶の戦斧	Bloodforged Battle-Axe
+300	護民官のサーベル	Civic Saber
+301	冷鉄の心臓	Coldsteel Heart
+302	征服者のフレイル	Conqueror's Flail
+303	世界のるつぼ	Crucible of Worlds
+304	ダークスティールの板金鎧	Darksteel Plate
+305	ドラゴンの門	Dragon Arch
+306	火想者の器	Firemind Vessel
+307	活線の鞭	Livewire Lash
+308	魔力の櫃	Mana Vault
+309	屍賊の死のマント	Nim Deathmantle
+310	パンハモニコン	Panharmonicon
+311	ファイレクシアの供犠台	Phyrexian Altar
+312	真髄の針	Pithing Needle
+313	次元橋	Planar Bridge
+314	師範の占い独楽	Sensei's Divining Top
+315	織端の石	Thrumming Stone
+316	旅行者の護符	Traveler's Amulet
+317	ヴィダルケンの宇宙儀	Vedalken Orrery
+318	アゾリウスの大法官庁	Azorius Chancery
+319	ボロスの駐屯地	Boros Garrison
+320	魂の洞窟	Cavern of Souls
+321	真鍮の都	City of Brass
+322	ディミーアの水路	Dimir Aqueduct
+323	禁忌の果樹園	Forbidden Orchard
+324	ゴルガリの腐敗農場	Golgari Rot Farm
+325	グルールの芝地	Gruul Turf
+326	イゼットの煮沸場	Izzet Boilerworks
+327	オルゾフの聖堂	Orzhov Basilica
+328	パルンズの柱	Pillar of the Paruns
+329	ラクドスの肉儀場	Rakdos Carnarium
+330	セレズニアの聖域	Selesnya Sanctuary
+331	シミックの成長室	Simic Growth Chamber
+332	謎めいた尖塔群	Cryptic Spires
+333		Liliana, the Last Hope (Borderless)
+334		Wrenn and Six (Borderless)
+335		Emrakul, the Aeons Torn (Borderless)
+336		Kozilek, Butcher of Truth (Borderless)
+337		Ulamog, the Infinite Gyre (Borderless)
+338		Emiel the Blessed (Borderless)
+339		Flickerwisp (Borderless)
+340		Mentor of the Meek (Borderless)
+341		Seeker of the Way (Borderless)
+342		Smothering Tithe (Borderless)
+343		Teferi's Protection (Borderless)
+344		Wall of Omens (Borderless)
+345		Consecrated Sphinx (Borderless)
+346		Force of Negation (Borderless)
+347		Gifts Ungiven (Borderless)
+348		Mana Drain (Borderless)
+349		Mulldrifter (Borderless)
+350		Spell Pierce (Borderless)
+351		Thought Scour (Borderless)
+352		Blood Artist (Borderless)
+353		Damnation (Borderless)
+354		Imperial Seal (Borderless)
+355		Inquisition of Kozilek (Borderless)
+356		Surgical Extraction (Borderless)
+357		Unearth (Borderless)
+358		Anger of the Gods (Borderless)
+359		Chaos Warp (Borderless)
+360		Dockside Extortionist (Borderless)
+361		Lightning Bolt (Borderless)
+362		Monastery Swiftspear (Borderless)
+363		Seasoned Pyromancer (Borderless)
+364		Young Pyromancer (Borderless)
+365		Allosaurus Shepherd (Borderless)
+366		Bloom Tender (Borderless)
+367		Concordant Crossroads (Borderless)
+368		Eternal Witness (Borderless)
+369		Hardened Scales (Borderless)
+370		Oracle of Mul Daya (Borderless)
+371		Rampant Growth (Borderless)
+372		Assassin's Trophy (Borderless)
+373		Bloodbraid Elf (Borderless)
+374		Burning-Tree Emissary (Borderless)
+375		Coiling Oracle (Borderless)
+376		Dragonlord Dromoka (Borderless)
+377		Elenda, the Dusk Rose (Borderless)
+378		Glimpse the Unthinkable (Borderless)
+379		Grand Arbiter Augustin IV (Borderless)
+380		Grim Flayer (Borderless)
+381		Kolaghan's Command (Borderless)
+382		Marchesa, the Black Rose (Borderless)
+383		The Mimeoplasm (Borderless)
+384		Muldrotha, the Gravetide (Borderless)
+385		Privileged Position (Borderless)
+386		Qasali Pridemage (Borderless)
+387		Sedris, the Traitor King (Borderless)
+388		Supreme Verdict (Borderless)
+389		Terminate (Borderless)
+390		Thousand-Year Storm (Borderless)
+391		Aether Vial (Borderless)
+392		Bloodforged Battle-Axe (Borderless)
+393		Crucible of Worlds (Borderless)
+394		Mana Vault (Borderless)
+395		Panharmonicon (Borderless)
+396		Phyrexian Altar (Borderless)
+397		Pithing Needle (Borderless)
+398		Sensei's Divining Top (Borderless)
+399		Vedalken Orrery (Borderless)
+400		Azorius Chancery (Borderless)
+401		Boros Garrison (Borderless)
+402		Cavern of Souls (Borderless)
+403		City of Brass (Borderless)
+404		Dimir Aqueduct (Borderless)
+405		Forbidden Orchard (Borderless)
+406		Golgari Rot Farm (Borderless)
+407		Gruul Turf (Borderless)
+408		Izzet Boilerworks (Borderless)
+409		Orzhov Basilica (Borderless)
+410		Rakdos Carnarium (Borderless)
+411		Selesnya Sanctuary (Borderless)
+412		Simic Growth Chamber (Borderless)
+413		Emrakul, the Aeons Torn (Foil Etched)
+414		Kozilek, Butcher of Truth (Foil Etched)
+415		Ulamog, the Infinite Gyre (Foil Etched)
+416		Divine Visitation (Foil Etched)
+417		Emiel the Blessed (Foil Etched)
+418		Leonin Arbiter (Foil Etched)
+419		Mikaeus, the Lunarch (Foil Etched)
+420		Monastery Mentor (Foil Etched)
+421		Restoration Angel (Foil Etched)
+422		Reveillark (Foil Etched)
+423		Smothering Tithe (Foil Etched)
+424		Teferi's Protection (Foil Etched)
+425		Weathered Wayfarer (Foil Etched)
+426		As Foretold (Foil Etched)
+427		Consecrated Sphinx (Foil Etched)
+428		Disciple of the Ring (Foil Etched)
+429		Force of Negation (Foil Etched)
+430		Gifts Ungiven (Foil Etched)
+431		Kederekt Leviathan (Foil Etched)
+432		Mana Drain (Foil Etched)
+433		Pull from Tomorrow (Foil Etched)
+434		Talrand, Sky Summoner (Foil Etched)
+435		Venser, Shaper Savant (Foil Etched)
+436		Bitterblossom (Foil Etched)
+437		Damnation (Foil Etched)
+438		Gravecrawler (Foil Etched)
+439		Imperial Seal (Foil Etched)
+440		Liliana, the Last Hope (Foil Etched)
+441		Necrotic Ooze (Foil Etched)
+442		Ob Nixilis, Unshackled (Foil Etched)
+443		Oona's Prowler (Foil Etched)
+444		Surgical Extraction (Foil Etched)
+445		Yahenni, Undying Partisan (Foil Etched)
+446		Abbot of Keral Keep (Foil Etched)
+447		Alesha, Who Smiles at Death (Foil Etched)
+448		Anger of the Gods (Foil Etched)
+449		Backdraft Hellkite (Foil Etched)
+450		Bedlam Reveler (Foil Etched)
+451		Chaos Warp (Foil Etched)
+452		Dockside Extortionist (Foil Etched)
+453		Greater Gargadon (Foil Etched)
+454		Seasoned Pyromancer (Foil Etched)
+455		Twinflame (Foil Etched)
+456		Warrior's Oath (Foil Etched)
+457		Allosaurus Shepherd (Foil Etched)
+458		Bloom Tender (Foil Etched)
+459		Concordant Crossroads (Foil Etched)
+460		Food Chain (Foil Etched)
+461		Green Sun's Zenith (Foil Etched)
+462		Hardened Scales (Foil Etched)
+463		Impervious Greatwurm (Foil Etched)
+464		Oracle of Mul Daya (Foil Etched)
+465		Rishkar, Peema Renegade (Foil Etched)
+466		Splinterfright (Foil Etched)
+467		Abzan Ascendancy (Foil Etched)
+468		Aminatou, the Fateshifter (Foil Etched)
+469		Anguished Unmaking (Foil Etched)
+470		Animar, Soul of Elements (Foil Etched)
+471		Arjun, the Shifting Flame (Foil Etched)
+472		Ashen Rider (Foil Etched)
+473		Ashenmoor Liege (Foil Etched)
+474		Assassin's Trophy (Foil Etched)
+475		Atarka's Command (Foil Etched)
+476		Atla Palani, Nest Tender (Foil Etched)
+477		Aurelia, the Warleader (Foil Etched)
+478		Balefire Liege (Foil Etched)
+479		Boartusk Liege (Foil Etched)
+480		Bring to Light (Foil Etched)
+481		Child of Alara (Foil Etched)
+482		Creakwood Liege (Foil Etched)
+483		Dack's Duplicate (Foil Etched)
+484		Dauntless Escort (Foil Etched)
+485		Deathbringer Liege (Foil Etched)
+486		Doran, the Siege Tower (Foil Etched)
+487		Dragonlord Dromoka (Foil Etched)
+488		Dragonlord Silumgar (Foil Etched)
+489		Drogskol Reaver (Foil Etched)
+490		Dromoka's Command (Foil Etched)
+491		Elenda, the Dusk Rose (Foil Etched)
+492		Elsha of the Infinite (Foil Etched)
+493		Empyrial Archangel (Foil Etched)
+494		Ezuri, Claw of Progress (Foil Etched)
+495		Fiery Justice (Foil Etched)
+496		Figure of Destiny (Foil Etched)
+497		Firesong and Sunspeaker (Foil Etched)
+498		Ghave, Guru of Spores (Foil Etched)
+499		Glen Elendra Liege (Foil Etched)
+500		Glimpse the Unthinkable (Foil Etched)
+501		Grand Arbiter Augustin IV (Foil Etched)
+502		Grim Flayer (Foil Etched)
+503		Guided Passage (Foil Etched)
+504		Hellkite Overlord (Foil Etched)
+505		Hostage Taker (Foil Etched)
+506		Hydroid Krasis (Foil Etched)
+507		Intet, the Dreamer (Foil Etched)
+508		Jeskai Ascendancy (Foil Etched)
+509		Jodah, Archmage Eternal (Foil Etched)
+510		Judith, the Scourge Diva (Foil Etched)
+511		Kaalia of the Vast (Foil Etched)
+512		Kaervek the Merciless (Foil Etched)
+513		Kambal, Consul of Allocation (Foil Etched)
+514		Karador, Ghost Chieftain (Foil Etched)
+515		Kolaghan's Command (Foil Etched)
+516		Lavalanche (Foil Etched)
+517		Legion's Initiative (Foil Etched)
+518		Lord of Extinction (Foil Etched)
+519		Magister Sphinx (Foil Etched)
+520		Marchesa, the Black Rose (Foil Etched)
+521		Master Biomancer (Foil Etched)
+522		Master of Cruelties (Foil Etched)
+523		Mathas, Fiend Seeker (Foil Etched)
+524		Mayael's Aria (Foil Etched)
+525		The Mimeoplasm (Foil Etched)
+526		Mindwrack Liege (Foil Etched)
+527		Mizzix of the Izmagnus (Foil Etched)
+528		Muldrotha, the Gravetide (Foil Etched)
+529		Murkfiend Liege (Foil Etched)
+530		Nicol Bolas, God-Pharaoh (Foil Etched)
+531		Phyrexian Tyranny (Foil Etched)
+532		Privileged Position (Foil Etched)
+533		Prized Amalgam (Foil Etched)
+534		Rafiq of the Many (Foil Etched)
+535		Roon of the Hidden Realm (Foil Etched)
+536		Ruric Thar, the Unbowed (Foil Etched)
+537		Sedris, the Traitor King (Foil Etched)
+538		Shattergang Brothers (Foil Etched)
+539		Sidisi, Brood Tyrant (Foil Etched)
+540		Skullbriar, the Walking Grave (Foil Etched)
+541		Supreme Verdict (Foil Etched)
+542		Tariel, Reckoner of Souls (Foil Etched)
+543		Teneb, the Harvester (Foil Etched)
+544		Thistledown Liege (Foil Etched)
+545		Thousand-Year Storm (Foil Etched)
+546		Thraximundar (Foil Etched)
+547		Ulasht, the Hate Seed (Foil Etched)
+548		Uril, the Miststalker (Foil Etched)
+549		Varina, Lich Queen (Foil Etched)
+550		Villainous Wealth (Foil Etched)
+551		Wasitora, Nekoru Queen (Foil Etched)
+552		Wilt-Leaf Liege (Foil Etched)
+553		Wrenn and Six (Foil Etched)
+554		Zur the Enchanter (Foil Etched)
+555		Aether Vial (Foil Etched)
+556		Bloodforged Battle-Axe (Foil Etched)
+557		Conqueror's Flail (Foil Etched)
+558		Crucible of Worlds (Foil Etched)
+559		Darksteel Plate (Foil Etched)
+560		Mana Vault (Foil Etched)
+561		Nim Deathmantle (Foil Etched)
+562		Panharmonicon (Foil Etched)
+563		Phyrexian Altar (Foil Etched)
+564		Pithing Needle (Foil Etched)
+565		Planar Bridge (Foil Etched)
+566		Sensei's Divining Top (Foil Etched)
+567		Thrumming Stone (Foil Etched)
+568		Vedalken Orrery (Foil Etched)
+569		Cavern of Souls (Foil Etched)
+570		City of Brass (Foil Etched)
+571		Forbidden Orchard (Foil Etched)
+572		Pillar of the Paruns (Foil Etched)
+573		Liliana, the Last Hope (Textured Foil)
+574		Wrenn and Six (Textured Foil)
+575		Emrakul, the Aeons Torn (Textured Foil)
+576		Kozilek, Butcher of Truth (Textured Foil)
+577		Ulamog, the Infinite Gyre (Textured Foil)
+578		Weathered Wayfarer
+579		Bring to Light
