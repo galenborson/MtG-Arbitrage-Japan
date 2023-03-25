@@ -13,6 +13,7 @@
 AllRecords fullRecords;
 float alphaDesired;
 float betaDesired;
+float conversionUSDToJPY;
 
 static size_t my_write(void* buffer, size_t size, size_t nmemb, void* param)
 {
@@ -21,10 +22,9 @@ static size_t my_write(void* buffer, size_t size, size_t nmemb, void* param)
     text.append(static_cast<char*>(buffer), totalsize);
     return totalsize;
 }
-
-std::string convertUTF8ToANSI(std::filesystem::directory_entry inputfile, std::string outputfile) {
+std::string convertUTF8ToANSI(std::filesystem::path inputfile, std::string outputfile) {
     // Open the input file in binary mode
-    std::string filestring = inputfile.path().string();
+    std::string filestring = inputfile.string();
     std::cout << "Converting " << filestring << " from UTF-8 to ANSI...\n";
     std::ifstream input(filestring, std::ios::binary);
 
@@ -43,7 +43,7 @@ std::string convertUTF8ToANSI(std::filesystem::directory_entry inputfile, std::s
     WideCharToMultiByte(CP_ACP, 0, wstr, -1, str, str_size, NULL, NULL);
 
     // Open the output file in binary mode
-    std::ofstream output(outputfile + inputfile.path().filename().string(), std::ios::binary);
+    std::ofstream output(outputfile + inputfile.filename().string(), std::ios::binary);
 
     // Write the new ANSI string to the output file
     output.write(str, str_size);
@@ -51,7 +51,7 @@ std::string convertUTF8ToANSI(std::filesystem::directory_entry inputfile, std::s
     // Clean up the allocated memory
     delete[] wstr;
     delete[] str;
-    return inputfile.path().filename().string();
+    return inputfile.filename().string();
 }
 
 void pullListOfStores() {
@@ -63,7 +63,6 @@ void pullListOfStores() {
     // Hareruya's pagenum is calculated by roundup(number_of_products / 60). Number of products cannot be calculated, so the sets file will need to contain a workaround."
     fullRecords.addStore("Single Star", "https://www.singlestar.jp/<<urltag>>/0/normal?page=<<pagenum>>");
 }
-
 void curlDownload(std::string inputUrl, std::string filename) {
     std::string htmlcontent;
     std::string file = filename;
@@ -91,7 +90,6 @@ void curlDownload(std::string inputUrl, std::string filename) {
     outputFile.close();
     std::cout << "Done\n";
 }
-
 void extractMarketPrices(std::string code, std::string name) {
     std::string filename = code + " - " + name;
     std::ifstream pricesInput;
@@ -144,7 +142,6 @@ void extractMarketPrices(std::string code, std::string name) {
     std::cout << "Done.\n";
     pricesOutput.close();
 }
-
 void assignCodesToStores() {
     for (Set& set : fullRecords.getAllSets()) {
         std::string codes = set.getCodes();
@@ -172,68 +169,6 @@ void assignCodesToStores() {
     }
     std::cout << "\n";
 }
-
-void downloadStoreLinks(Store& store) {
-    const auto& tagsMap = store.separateURLTags();
-    std::map<std::string, std::string> urlTagMap = store.getURLTags();
-    std::string result;
-    int currentpage = 1;
-    std::regex urltag("<<urltag>>");
-    std::regex pagenum("<<pagenum>>");
-    for (const auto& x : tagsMap) {
-        std::string currentset = x.first;
-        std::vector<std::string> currentsetcodes = x.second;
-        for (const auto& y : currentsetcodes) {            
-            std::smatch match;
-            std::regex splitter("([^;]*);([^\s]*)");
-            regex_search(y, match, splitter);
-            std::string tagstring = match[1];
-            std::string pagesmax = match[2];
-
-            int currentpage = 1;
-            int maxint = stoi(pagesmax);
-            while (currentpage <= maxint) {
-                std::string urlbase = store.getURLConstructor();
-                urlbase = std::regex_replace(urlbase, urltag, tagstring);
-                std::string urlpages = std::regex_replace(urlbase, pagenum, std::to_string(currentpage));
-                std::cout << urlpages << "\n";
-                std::string tagstringdownloadable = regex_replace(tagstring, std::regex("\/"), "_");
-                std::string storename = store.getStoreName();
-                std::string outputfile = "files/stores_html/" + storename + "/" + currentset + " " + tagstringdownloadable + " - " + std::to_string(currentpage) + ".html";
-                // If the file doesn't already exist or has been modified within the past 24 hours, (re)download it
-                std::filesystem::path mypath = outputfile;
-                std::filesystem::file_time_type filetime;
-                try {
-                    filetime = std::filesystem::last_write_time(mypath);
-                    auto fileClock = std::chrono::clock_cast<std::chrono::system_clock>(filetime);
-                    auto fileEpoch = std::chrono::system_clock::to_time_t(fileClock);
-                    std::time_t nowt = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
-                    float difference = difftime(nowt, fileEpoch);
-                    if (difference/86400 >= 5) {
-                        std::cout << "File last updated " << difference/86400 << " days ago. Updating now...\n";
-                        curlDownload(urlpages, outputfile);
-                        /*
-                        std::ofstream outputwrite(outputfile, std::ios_base::app);
-                        std::filesystem::directory_entry outputdir(outputfile);
-                        if (storename == "Aki Aki") {545646486548
-                            extractAkiAki(outputdir);
-                        }
-                        */
-                    }
-                    else {
-                        std::cout << "File last updated " << difference/86400 << " days ago. Will not update.\n";
-                    }
-                }
-                catch (const std::filesystem::filesystem_error& e) {
-                    std::cout << "File not found. Downloading now...\n";
-                    curlDownload(urlpages, outputfile);
-                }
-                ++currentpage;
-            }
-        }
-    }
-}
-
 float convertUSDToJPY() {
     curlDownload("https://finance.yahoo.com/quote/JPY=X/", "files/usd_to_jpy.html");
     std::ifstream oldfile("files/usd_to_jpy.html");
@@ -258,15 +193,14 @@ std::string getFoilStatus(std::string text) {
     return status;
 }
 
-void extractAkiAki(std::filesystem::directory_entry filedir) {
+void extractAkiAki(std::filesystem::path filedir) {
     std::ifstream inputfile;
-    std::string filename = filedir.path().filename().string();
+    std::string filename = filedir.filename().string();
     std::string convertedfile = convertUTF8ToANSI(filedir, "files/stores_databases/Aki Aki/");
     std::string ansihtmlfile = "files/stores_databases/Aki Aki/" + convertedfile;
     std::filesystem::path outputdir = "files/stores_databases/Aki Aki/" + filename.substr(0, filename.size() - 5) + ".csv";
     std::ofstream cleanedhtml;
     std::string temp;
-
     inputfile.open(ansihtmlfile);
     cleanedhtml.open(outputdir);
     while(!inputfile.eof()) {
@@ -298,9 +232,9 @@ void extractAkiAki(std::filesystem::directory_entry filedir) {
     cleanedhtml.close();
     std::filesystem::remove(ansihtmlfile);
 }
-void extractHareruya(std::filesystem::directory_entry filedir) {
+void extractHareruya(std::filesystem::path filedir) {
     std::ifstream inputfile;
-    std::string filename = filedir.path().filename().string();
+    std::string filename = filedir.filename().string();
     std::string convertedfile = convertUTF8ToANSI(filedir, "files/stores_databases/Hareruya/");
     std::string ansihtmlfile = "files/stores_databases/Hareruya/" + convertedfile;
     std::filesystem::path outputdir = "files/stores_databases/Hareruya/" + filename.substr(0, filename.size() - 5) + ".csv";
@@ -334,35 +268,14 @@ void extractHareruya(std::filesystem::directory_entry filedir) {
             std::regex_search(temp, match, std::regex("^.*?在庫:([0-9]*)"));
             cleanedhtml << match[1] << "\n";
         }
-        /*
-        if (std::regex_search(temp, match, std::regex("^.*?\" class=\"itemName\">"))) {
-            getline(inputfile, temp);
-            std::regex_search(temp, match, std::regex("^.*?(【.*?)<"));
-            cleanedhtml << match[1] << "\t";
-            std::string isFoil = getFoilStatus(temp);
-            cleanedhtml << isFoil << "\t";
-            if (std::regex_search(temp, match, std::regex("^.*?【JP】"))) {
-                cleanedhtml << "JP";
-            }
-            else cleanedhtml << "EN";
-            cleanedhtml << "\t";
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            std::regex_search(temp, match, std::regex("^.*?<p class.*? ([0-9\,]*?)<"));
-            cleanedhtml << match[1] << "\t";
-            getline(inputfile, temp);
-            std::regex_search(temp, match, std::regex("^.*?在庫:([0-9]*)"));
-            cleanedhtml << match[1] << "\n";
-        }
-        */
     }
     inputfile.close();
     cleanedhtml.close();
     std::filesystem::remove(ansihtmlfile);
 }
-void extractSingleStar(std::filesystem::directory_entry filedir) {
+void extractSingleStar(std::filesystem::path filedir) {
     std::ifstream inputfile;
-    std::string filename = filedir.path().filename().string();
+    std::string filename = filedir.filename().string();
     std::string convertedfile = convertUTF8ToANSI(filedir, "files/stores_databases/Single Star/");
     std::string ansihtmlfile = "files/stores_databases/Single Star/" + convertedfile;
     std::filesystem::path outputdir = "files/stores_databases/Single Star/" + filename.substr(0, filename.size() - 5) + ".csv";
@@ -413,36 +326,6 @@ void extractSingleStar(std::filesystem::directory_entry filedir) {
             std::regex_search(temp, match, std::regex("^.*数 ([0-9,]{1,10})"));
             cleanedhtml << match[1] << "\n";
         }
-        /*
-        if (std::regex_search(temp, match, std::regex("^.*\"goods_name\">.*\/(.*?)【(.*?)】"))) {
-            cleanedhtml << match[1] << "\t" << match[2] << "\t";
-            std::smatch foilmatch;
-            if (std::regex_search(temp, foilmatch, std::regex("^.*?\\[FOIL"))) {
-                cleanedhtml << "Foil";
-            }
-            cleanedhtml << "\t";
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            std::regex_search(temp, match, std::regex("^.*?([0-9,]{1,10})"));
-            if (match[1] == "") {
-                getline(inputfile, temp);
-                std::regex_search(temp, match, std::regex("^.*?([0-9,]{1,10})"));
-            }
-            cleanedhtml << match[1] << "\t";
-            getline(inputfile, temp);
-            getline(inputfile, temp);
-            std::regex_search(temp, match, std::regex("^.*数 ([0-9,]{1,10})"));
-            cleanedhtml << match[1] << "\n";
-        }
-        */
     }
     inputfile.close();
     cleanedhtml.close();
@@ -505,12 +388,13 @@ std::string translateModifiers(std::string modifiers) {
     return modifierReturn;
 }
 
-
-void compileAkiAki(std::filesystem::directory_entry filedir, float conversion) {
-    std::string setcode = filedir.path().filename().string().substr(0, 3);
+void compileAkiAki(std::filesystem::path inputcsv, float conversion) {
+    std::string setcode = inputcsv.filename().string().substr(0, 3);
     std::string masterTSVString = "files/stores_databases/Aki Aki/" + setcode + ".tsv";
+    // std::string filestring = inputcsv.filename().string();
+    // std::string cleanedhtmlpath = "files/stores_databases/Aki Aki/" + filestring.substr(0,filestring.length()-5) + ".csv";
     std::ifstream filecontents;
-    filecontents.open(filedir.path().string());
+    filecontents.open(inputcsv);
     std::ofstream masterTSV(masterTSVString, std::ios_base::app);
     std::string line;
     while (!filecontents.eof()) {
@@ -536,14 +420,14 @@ void compileAkiAki(std::filesystem::directory_entry filedir, float conversion) {
         }
     }
     filecontents.close();
-    std::filesystem::remove(filedir.path().string());
+    // std::filesystem::remove(inputcsv);
     masterTSV.close();
 }
-void compileHareruya(std::filesystem::directory_entry filedir, float conversion) {
-    std::string setcode = filedir.path().filename().string().substr(0, 3);
+void compileHareruya(std::filesystem::path filedir, float conversion) {
+    std::string setcode = filedir.filename().string().substr(0, 3);
     std::string masterTSVString = "files/stores_databases/Hareruya/" + setcode + ".tsv";
     std::ifstream filecontents;
-    filecontents.open(filedir.path().string());
+    filecontents.open(filedir.string());
     std::ofstream masterTSV(masterTSVString, std::ios_base::app);
     std::string line;
     while (!filecontents.eof()) {
@@ -584,14 +468,14 @@ void compileHareruya(std::filesystem::directory_entry filedir, float conversion)
         }
     }
     filecontents.close();
-    std::filesystem::remove(filedir.path().string());
+    // std::filesystem::remove(filedir.string());
     masterTSV.close();
 }
-void compileSingleStar(std::filesystem::directory_entry filedir, float conversion) {
-    std::string setcode = filedir.path().filename().string().substr(0, 3);
+void compileSingleStar(std::filesystem::path filedir, float conversion) {
+    std::string setcode = filedir.filename().string().substr(0, 3);
     std::string masterTSVString = "files/stores_databases/Single Star/" + setcode + ".tsv";
     std::ifstream filecontents;
-    filecontents.open(filedir.path().string());
+    filecontents.open(filedir.string());
     std::ofstream masterTSV(masterTSVString, std::ios_base::app);
     std::string line;
     while (!filecontents.eof()) {
@@ -631,14 +515,83 @@ void compileSingleStar(std::filesystem::directory_entry filedir, float conversio
         }
     }
     filecontents.close();
-    std::filesystem::remove(filedir.path().string());
+    // std::filesystem::remove(filedir.string());
     masterTSV.close();
 }
 
-void resetMasterTSVs(Store& store) {
-    for (Set& set : fullRecords.getAllSets()){
-        std::string masterTSVDirectory = "files/stores_databases/" + store.getStoreName() + "/" + set.getSetCode() + ".tsv";
-        std::filesystem::remove(masterTSVDirectory);
+void extractAndCompile(std::string inputhtml, std::string inputcsvorigin, std::string storename, std::string currentset) {
+    std::filesystem::path outputhtml(inputhtml);
+    std::filesystem::path outputcsv("files/stores_databases/" + storename + "/" + currentset + ".csv");
+    std::string referenceCSV = "files/stores_databases/" + storename + "/" + inputcsvorigin.substr(0,inputcsvorigin.length()-5) + ".csv";
+    if (storename == "Aki Aki") {
+        extractAkiAki(outputhtml);
+        compileAkiAki(referenceCSV, conversionUSDToJPY);
+    }
+    else if (storename == "Hareruya") {
+        extractHareruya(outputhtml);
+        compileHareruya(referenceCSV, conversionUSDToJPY);
+    }
+    else if (storename == "Single Star") {
+        extractSingleStar(outputhtml);
+        compileSingleStar(referenceCSV, conversionUSDToJPY);
+    }
+}
+
+void downloadStoreLinks(Store& store) {
+    const auto& tagsMap = store.separateURLTags();
+    std::map<std::string, std::string> urlTagMap = store.getURLTags();
+    std::string result;
+    std::regex urltag("<<urltag>>");
+    std::regex pagenum("<<pagenum>>");
+    for (const auto& x : tagsMap) {
+        std::string currentset = x.first;
+        std::vector<std::string> currentsetcodes = x.second;
+        for (const auto& y : currentsetcodes) {
+            std::smatch match;
+            std::regex splitter("([^;]*);([^\s]*)");
+            regex_search(y, match, splitter);
+            std::string tagstring = match[1];
+            std::string pagesmax = match[2];
+            int currentpage = 1;
+            int maxint = stoi(pagesmax);
+            while (currentpage <= maxint) {
+                std::string urlbase = store.getURLConstructor();
+                urlbase = std::regex_replace(urlbase, urltag, tagstring);
+                std::string urlpages = std::regex_replace(urlbase, pagenum, std::to_string(currentpage));
+                std::cout << urlpages << "\n";
+                std::string tagstringdownloadable = regex_replace(tagstring, std::regex("\/"), "_");
+                std::string storename = store.getStoreName();
+                std::string outputhtml = "files/stores_html/" + storename + "/" + currentset + " " + tagstringdownloadable + " - " + std::to_string(currentpage) + ".html";
+                // If the file doesn't already exist or has been modified within the past 24 hours, (re)download it
+                std::filesystem::path mypath = outputhtml;
+                std::filesystem::path existingCSV = "files/stores_databases/" + storename + "/" + currentset + " " + tagstringdownloadable + " - " + std::to_string(currentpage) + ".csv";
+                std::cout << "Existing path should look like: " << existingCSV.string() << "\n";
+                std::string csvnameorigin = mypath.filename().string();
+                std::filesystem::file_time_type filetime;
+                try {
+                    filetime = std::filesystem::last_write_time(existingCSV);
+                    auto fileClock = std::chrono::clock_cast<std::chrono::system_clock>(filetime);
+                    auto fileEpoch = std::chrono::system_clock::to_time_t(fileClock);
+                    std::time_t nowt = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
+                    float difference = difftime(nowt, fileEpoch);
+                    if (difference / 86400 >= 5) {
+                        std::cout << "File last updated " << difference / 86400 << " days ago. Updating now...\n";
+                        curlDownload(urlpages, outputhtml);
+                        extractAndCompile(outputhtml, csvnameorigin, storename, currentset);
+                    }
+                    else {
+                        std::cout << "File last updated " << difference / 86400 << " days ago. Will not update.\n";
+                    }
+                }
+                catch (const std::filesystem::filesystem_error& e) {
+                    std::cout << "File not found. Downloading now...\n";
+                    curlDownload(urlpages, outputhtml);
+                    extractAndCompile(outputhtml, csvnameorigin, storename, currentset);
+                    std::filesystem::remove(outputhtml);
+                }
+                ++currentpage;
+            }
+        }
     }
 }
 
@@ -760,6 +713,15 @@ void generateFinalOutput() {
     masterOutput.close();
 }
 
+void resetMasterTSVs() {
+    for (Store& store : fullRecords.getAllStores()) {
+        for (Set& set : fullRecords.getAllSets()) {
+            std::string masterTSVDirectory = "files/stores_databases/" + store.getStoreName() + "/" + set.getSetCode() + ".tsv";
+            std::filesystem::remove(masterTSVDirectory);
+        }
+    }
+}
+
 int main() {
     std::ifstream fileOfSets;
     std::string currentSet;
@@ -770,10 +732,11 @@ int main() {
     std::cout << "Input your desired minimum ROI percentage as a float (200 recommended): ";
     std::cin >> betaDesired;
     std::cout << "\n========UPDATING USD TO JPY CONVERSION========\n";
-    float conversionUSDToJPY = convertUSDToJPY();
+    conversionUSDToJPY = convertUSDToJPY();
 
     std::cout << "========ASSEMBLING LIST OF STORES========\n";
     pullListOfStores();
+    resetMasterTSVs();
 
     // Downloads all USD market prices as html
     std::cout << "========DOWNLOADING USD MARKET PRICES========\n";
@@ -799,7 +762,6 @@ int main() {
 
     assignCodesToStores();
 
-
     // Converts market price htmls to csv
     std::cout << "========EXTRACTING PRICES TO CSVS========\n";
     fileOfSets.open("files/sets.txt");
@@ -815,9 +777,6 @@ int main() {
     // In this step, we convert the store codes to urls and download them all.
     for (Store& store : fullRecords.getAllStores()) {
         downloadStoreLinks(store);
-        fetchStorePrices(store);
-        resetMasterTSVs(store);
-        compileStorePrices(store, conversionUSDToJPY);
     }
 
     std::cout << "========GENERATING FINAL OUTPUT TO \"files/output/output.csv\"--------\n";
