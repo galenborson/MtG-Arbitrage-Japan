@@ -8,7 +8,7 @@ Program is written in C++ using curl.
 
 # Disclaimer
 
-* This program is merely a tool and not professional financial advice. Any purchases made using this tool do not guarantee any profit. **Check each card yourself before confirming a purchase.**
+* This program is merely a tool and not professional financial advice. Any purchases made using this tool do not guarantee any positive returns. **Do your research and check each card yourself before confirming a purchase.**
 * Current USD market prices are pulled from EchoMTG.com. While non-foil prices tend to be fairly accurate to TCGPlayer Low, foils are often inflated.
 
 # How To Use
