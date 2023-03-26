@@ -14,7 +14,9 @@ Program is written in C++ using curl.
 # How To Use
 
 * Run "MtG_PriceComparisons_Japan.exe."
-* Input your Expected USD Profit and Expected ROI values.
+* Input your preferred **Expected USD Profit** and **Expected ROI** values.
+  * Expected USD Profit equates to the minimum dollar amount you'd like to yield per purchase. A $10 purchase with an Expected USD Profit of 5 would predict $15 in value, for example.
+  * Expected ROI equates to the percentage of investment return you'd like to aim for per purchase. A $10 purchase with a Expected ROI value of 100 would predict $20 in value, for example.
   * To compensate for international shipping and third party resale fees, the program recommends values of 5 and 200 respectively. Depending on your needs, you are free to input whatever values you'd like.
 * Allow the program to download any price updates (this can be very large).
 * To remove any sets, delete the set's line in the "files/sets.txt" file.
@@ -28,13 +30,15 @@ This section explains the data contained in the exported .csv.
 * **Set Code**: Three-letter code corresponding to the entry's set.
 * **Card Name**: This includes any modifiers like "Borderless," "Showcase," "Foil Etched," etc.
 * **Foil Status**
+* **Language**: Currently only supports English (EN) and Japanese (JP).
 * **Card Price**: In USD
 * **Stock**
 * **Expected USD Profit**
 * **Expected ROI**
 * **Weight**: The product of Expected USD Profit and Expected ROI. Useful when sorting for quickly identifying the best deals.
-* **Tiers**: An organization method for a card's estimated value. Entries with a weight ≤ 0 are not included.
-  * A tier: The listing's price is ≥ your Expected USD Profit, AND the calculated ROI is ≥ your Expected ROI.
-  * B tier: The listing's price is < your Expected USD Profit, BUT the calculated ROI is ≥ your Expected ROI.
-  * C tier: The listing's price is ≥ your Expected USD Profit, BUT the calculated ROI is < your Expected ROI.
-  * D tier: The listing's price is < your Expected USD Profit, AND the calculated ROI is < your Expected ROI.
+  *Entries with a weight ≤ 0 are not included.
+* **Tiers**: An organization method for a card's estimated value.
+  * **A tier**: The listing's price is ≥ your Expected USD Profit, AND the calculated ROI is ≥ your Expected ROI. These should give the most return on your investment.
+  * **B tier**: The listing's price is < your Expected USD Profit, BUT the calculated ROI is ≥ your Expected ROI. Useful for identifying cheap speculations.
+  * **C tier**: The listing's price is ≥ your Expected USD Profit, BUT the calculated ROI is < your Expected ROI. Good if you just want great deals on expensive cards for personal use.
+  * **D tier**: The listing's price is < your Expected USD Profit, AND the calculated ROI is < your Expected ROI. Minimally valuable, though nice for identifying cheap pick-ups for certain staples.
