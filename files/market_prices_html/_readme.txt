@@ -1,0 +1,1 @@
+Market prices are pulled from EchoMTG and cleaned up in here.
