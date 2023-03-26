@@ -37,4 +37,4 @@ This section explains the data contained in the exported .csv.
   * A tier: The listing's price is ≥ your Expected USD Profit, AND the calculated ROI is ≥ your Expected ROI.
   * B tier: The listing's price is < your Expected USD Profit, BUT the calculated ROI is ≥ your Expected ROI.
   * C tier: The listing's price is ≥ your Expected USD Profit, BUT the calculated ROI is < your Expected ROI.
-  * D tier: The listing's price is < your Expected USD Profit, AND the calculated ROI is < your Expected ROI. Both values are still greater than 0.
+  * D tier: The listing's price is < your Expected USD Profit, AND the calculated ROI is < your Expected ROI.
