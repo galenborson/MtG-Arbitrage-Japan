@@ -4,6 +4,8 @@ This is a price scraper of various Magic: the Gathering superstores based in Jap
 
 Program is written in C++ using curl.
 
+![image](https://user-images.githubusercontent.com/127451072/227806523-bde604ba-68d1-4808-9976-7f39bd2c8322.png)
+
 # Disclaimer
 
 * This program is merely a tool and not professional financial advice. Any purchases made using this tool do not guarantee any profit. **Check each card yourself before confirming a purchase.**
@@ -18,8 +20,6 @@ Program is written in C++ using curl.
 * To remove any sets, delete the set's line in the "files/sets.txt" file.
 
 Once completed, it will export a .csv to "files/output/output.csv"
-
-![image](https://user-images.githubusercontent.com/127451072/227806523-bde604ba-68d1-4808-9976-7f39bd2c8322.png)
 
 # Features
 This section explains the data contained in the exported .csv.
