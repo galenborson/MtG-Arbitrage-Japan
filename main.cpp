@@ -386,7 +386,7 @@ void downloadMarketPrices() {
 }
 
 
-// The program's main execution call
+// The program's main execution call.
 int main() {
     std::cout << "Input your desired minimum profit in USD as a float (5.00 recommended): ";
     std::cin >> alphaDesired;
@@ -396,21 +396,30 @@ int main() {
     fullRecords.setConversion(convertUSDToJPY());
     std::cout << "$1.00 USD = " << fullRecords.getConversion() << " JPY.\n";
 
+    // Assigns stores their URL slugs.
     std::cout << "\n========POPULATING LIST OF STORES========\n";
     fullRecords.populateStores();
+
+    // Deletes old files.
     resetMasterTSVs();
     std::cout << "Done\n";
 
-    // Downloads all USD market prices as html
+    // If prices are out of date, downloads all USD market prices as html.
     std::cout << "\n========DOWNLOADING USD MARKET PRICES========\n";
     downloadMarketPrices();
 
+    // For each set in "files/sets.txt," assigns each store the respective list of url slugs & number of pages per set.
     assignCodesToStores();
 
     // In this step, we convert the store codes to urls and download them all.
     downloadStoreLinks();
 
+    // Compares all store listings with their US market prices and exports results to a final csv.
     std::cout << "========GENERATING FINAL OUTPUT TO \"files/output/output.csv\"--------\n";
     generateFinalOutput();
+    std::cout << "\n**Congratulations!**\n";
+    std::cout << "Your file has been successfully generated in \"files/output/output.csv\"\n";
+    std::cout << "Now you can open it in your favorite spreadsheet editor to sort through all available listings.\n\n";
+    system("pause");
     return 0;
 }
